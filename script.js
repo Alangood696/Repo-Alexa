@@ -1,84 +1,142 @@
 document.addEventListener("DOMContentLoaded", () => {
   const svgDoc = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>`;
 
+  // ============================================================
+  // BASE DE DATOS ESTÁTICA (Aquí editas tus documentos)
+  // ============================================================
   const dbDefault = {
     materia: { titulo: "Materia", subtitulo: "Apuntes e información", bg: "fondo/2.jpg", items: { p1: { "Apuntes": [] }, p2: { "Apuntes": [] } } },
-    evaluaciones: { titulo: "Evaluaciones", subtitulo: "Pruebas y calificaciones", bg: "fondo/3.jpg", items: { p1: { "Virtuales": [], "A mano": [] }, p2: { "Virtuales": [], "A mano": [] } } },
-    deberes: { titulo: "Deberes", subtitulo: "Tareas del semestre", bg: "fondo/4.jpg", items: { p1: { "Tareas": [] }, p2: { "Tareas": [] } } },
-    apes: { titulo: "APES", subtitulo: "Aprendizaje autónomo", bg: "fondo/5.jpg", items: { p1: { "Tareas": [] }, p2: { "Tareas": [] } } },
-    ekos: { titulo: "EKOS", subtitulo: "Plataforma", bg: "fondo/6.jpg", items: { p1: { "Tareas": [] }, p2: { "Tareas": [] } } },
+    
+    // SECCIÓN EVALUACIONES
+    evaluaciones: { 
+      titulo: "Evaluaciones", 
+      subtitulo: "Pruebas y calificaciones", 
+      bg: "fondo/3.jpg", 
+      items: { 
+        p1: { 
+          "Evaluaciones Virtuales": [
+            { t: "DEFINICIONES BÁSICAS FUNCIONES", d: "19/08/2026", f: "archivos/evaluaciones/parcial-1/DEFINICIONES.pdf", g: "10/10" },
+            { t: "EVALUACIÓN FUNCIONES", d: "26/08/2026", f: "archivos/evaluaciones/parcial-1/FUNCIONES.pdf", g: "5/10" },
+            { t: "EVALUACIÓN LA CONJETURA DE POINCARÉ", d: "26/08/2026", f: "archivos/evaluaciones/parcial-1/POINCARE.pdf", g: "7.5/10" },
+            { t: "EVALUACIÓN BINOMIO DE NEWTON", d: "09/09/2026", f: "archivos/evaluaciones/parcial-1/NEWTON.pdf", g: "5/10" },
+            { t: "EVALUACIÓN APLICACIÓN DE LAS FUNCIONES", d: "16/09/2026", f: "archivos/evaluaciones/parcial-1/APLICACION.pdf", g: "10/10" },
+            { t: "EVALUACIÓN EL PROBLEMA DE SIERPINSKI", d: "16/09/2026", f: "archivos/evaluaciones/parcial-1/SIERPINSKI.pdf", g: "6/10" },
+            { t: "EVALUACIÓN LÍMITES", d: "23/09/2026", f: "archivos/evaluaciones/parcial-1/LIMITES.pdf", g: "5/10" }
+          ],
+          "Evaluaciones Escritas": [
+            { t: "EVALUACIÓN_CLASIFICACIÓN_DE_FUNCIONES", d: "24/08/2026", f: "archivos/evaluaciones/parcial-1/CLASIFICACION.pdf", g: "3/10" },
+            { t: "EVALUACIÓN_TRIÁNGULO_DE_PASCAL", d: "25/08/2026", f: "archivos/evaluaciones/parcial-1/TRIANGULO.pdf", g: "2/10" },
+            { t: "TALLER_BINOMIO_DE_NEWTON", d: "01/09/2026", f: "archivos/evaluaciones/parcial-1/TALLER_NEWTON.pdf", g: "5.5/10" },
+            { t: "EVALUACIÓN_FUNCIONES_DOMINIO", d: "09/09/2026", f: "archivos/evaluaciones/parcial-1/DOMINIO.pdf", g: "8/10" },
+            { t: "EVALUACION_APLICACION_FUNCIONES", d: "16/09/2026", f: "archivos/evaluaciones/parcial-1/APLICACION_ESCRITA.pdf", g: "3/10" }
+          ],
+          "Evaluación Parcial": [
+            { t: "EVALUACIÓN PRIMER PARCIAL", d: "22/09/2026", f: "archivos/evaluaciones/parcial-1/PARCIAL_1.pdf", g: "6.25/10" }
+          ]
+        }, 
+        p2: { 
+          "Evaluaciones Virtuales": [], 
+          "Evaluaciones Escritas": [],
+          "Evaluación Parcial": []
+        } 
+      } 
+    },
+    
+    // SECCIÓN DEBERES (Nueva información)
+    deberes: { 
+      titulo: "Deberes", 
+      subtitulo: "Tareas del semestre", 
+      bg: "fondo/4.jpg", 
+      items: { 
+        p1: { 
+          "Tareas": [],
+          "Foro": [
+            { t: "FORO DE PRESENTACIÓN", d: "21/08/2026", f: "archivos/deberes/parcial-1/FORO.pdf", g: "9.5/10" }
+          ]
+        }, 
+        p2: { "Tareas": [], "Foro": [] } 
+      } 
+    },
+    
+    // SECCIÓN APES (Nueva información)
+    apes: { 
+      titulo: "APES", 
+      subtitulo: "Aprendizaje autónomo", 
+      bg: "fondo/5.jpg", 
+      items: { 
+        p1: { 
+          "Tareas": [
+            { t: "APRENDIZAJE PRACTICO EXPERIMENTAL 1", d: "30/08/2026", f: "archivos/apes/parcial-1/APE_1.pdf", g: "9.5/10" },
+            { t: "APRENDIZAJE PRACTICO EXPERIMENTAL 4", d: "27/09/2026", f: "archivos/apes/parcial-1/APE_4.pdf", g: "8/10" }
+          ] 
+        }, 
+        p2: { "Tareas": [] } 
+      } 
+    },
+    
+    // SECCIÓN EKOS (Nueva información)
+    ekos: { 
+      titulo: "EKOS", 
+      subtitulo: "Plataforma", 
+      bg: "fondo/6.jpg", 
+      items: { 
+        p1: { 
+          "Tareas": [
+            { t: "LECTURA CRÍTICA PRIMERA SEMANA EKOS", d: "18/08/2026", f: "archivos/ekos/parcial-1/LECTURA_1.pdf", g: "4.3/10" },
+            { t: "LECTURA CRÍTICA SEGUNDA SEMANA FUNCIONES EKOS", d: "20/08/2026", f: "archivos/ekos/parcial-1/LECTURA_2.pdf", g: "5/10" },
+            { t: "LECTURA CRÍTICA TERCERA SEMANA EKOS", d: "26/08/2026", f: "archivos/ekos/parcial-1/LECTURA_3.pdf", g: "6/10" },
+            { t: "LECTURA CRÍTICA CUARTA SEMANA BINOMIO DE NEWTON EKOS", d: "02/09/2026", f: "archivos/ekos/parcial-1/LECTURA_4.pdf", g: "9/10" },
+            { t: "LECTURA CRÍTICA QUINTA SEMANA EKOS", d: "09/09/2026", f: "archivos/ekos/parcial-1/LECTURA_5.pdf", g: "5/10" },
+            { t: "LECTURA CRÍTICA LÍMITES SEXTA SEMANA EKOS", d: "16/09/2026", f: "archivos/ekos/parcial-1/LECTURA_6.pdf", g: "8/10" },
+            { t: "LECTURA CRÍTICA SEPTIMA SEMANA EKOS", d: "17/09/2026", f: "archivos/ekos/parcial-1/LECTURA_7.pdf", g: "9.5/10" }
+          ] 
+        }, 
+        p2: { "Tareas": [] } 
+      } 
+    },
+    
     consultas: { titulo: "Consultas", subtitulo: "Comp y mano", bg: "fondo/7.jpg", items: { p1: { "Consultas": [] }, p2: { "Consultas": [] } } },
-    lecturas: { titulo: "Lecturas", subtitulo: "Análisis", bg: "fondo/8.jpg", items: { p1: { "Lecturas": [] }, p2: { "Lecturas": [] } } },
+    
+    // SECCIÓN LECTURAS CRÍTICAS (Nueva información)
+    lecturas: { 
+      titulo: "Lecturas", 
+      subtitulo: "Análisis", 
+      bg: "fondo/8.jpg", 
+      items: { 
+        p1: { 
+          "Lecturas": [
+            { t: "Conjetura de Poincaré", d: "26/08/2026", f: "archivos/lecturas/parcial-1/POINCARE.pdf", g: "9.5/10" },
+            { t: "PROBLEMA DE SIERPINSKI", d: "16/09/2026", f: "archivos/lecturas/parcial-1/SIERPINSKI.pdf", g: "10/10" }
+          ] 
+        }, 
+        p2: { "Lecturas": [] } 
+      } 
+    },
+    
     anexos: { titulo: "Anexos", subtitulo: "Material extra", bg: "fondo/9.jpg", items: { p1: { "Anexos": [] }, p2: { "Anexos": [] } } },
-    index: { titulo: "Inicio", subtitulo: "Información", bg: "fondo/1.jpg", items: {}, perfil: {} }
+    
+    index: { 
+      titulo: "Inicio", 
+      subtitulo: "Información", 
+      bg: "fondo/1.jpg", 
+      items: {}, 
+      perfil: {
+        nombre: "[Nombre del Estudiante]", 
+        rol: "Contabilidad y Auditoría", 
+        universidad: "Universidad Técnica de Ambato", 
+        facultad: "Contabilidad y Auditoría", 
+        curso: "Primer Semestre - Paralelo 'A'", 
+        docente: "Lic. Claudio Hidalgo", 
+        foto: "" 
+      } 
+    }
   };
-
-  const perfilDefault = {
-    nombre: "[Nombre del Estudiante]",
-    rol: "Contabilidad y Auditoría",
-    universidad: "Universidad Técnica de Ambato",
-    facultad: "Contabilidad y Auditoría",
-    curso: "Primer Semestre - Paralelo 'A'",
-    docente: "Lic. Claudio Hidalgo",
-    foto: ""
-  };
-
-  // ============================================================
-  // INICIALIZACIÓN ROBUSTA DE LA BASE DE DATOS
-  // Fusiona los defaults con lo guardado en localStorage para
-  // evitar errores cuando el db viejo está incompleto o corrupto.
-  // ============================================================
-  let db;
-  try {
-    db = JSON.parse(localStorage.getItem("portafolio_db")) || {};
-  } catch (e) {
-    console.warn("DB corrupta en localStorage, reiniciando...", e);
-    db = {};
-  }
-
-  if (typeof db !== "object" || Array.isArray(db)) db = {};
-
-  Object.keys(dbDefault).forEach(key => {
-    if (!db[key] || typeof db[key] !== "object" || Array.isArray(db[key])) {
-      db[key] = JSON.parse(JSON.stringify(dbDefault[key]));
-    } else {
-      db[key].titulo = db[key].titulo || dbDefault[key].titulo;
-      db[key].subtitulo = db[key].subtitulo || dbDefault[key].subtitulo;
-      db[key].bg = db[key].bg || dbDefault[key].bg;
-      if (!db[key].items || typeof db[key].items !== "object" || Array.isArray(db[key].items)) {
-        db[key].items = JSON.parse(JSON.stringify(dbDefault[key].items));
-      }
-    }
-  });
-
-  // Perfil: rellenar SOLO los campos que falten
-  const perfilGuardado = (db.index.perfil && typeof db.index.perfil === "object" && !Array.isArray(db.index.perfil))
-    ? db.index.perfil
-    : {};
-  db.index.perfil = { ...perfilDefault };
-  Object.keys(perfilGuardado).forEach(k => {
-    if (perfilGuardado[k] !== undefined && perfilGuardado[k] !== null) {
-      db.index.perfil[k] = perfilGuardado[k];
-    }
-  });
-  Object.keys(perfilDefault).forEach(k => {
-    if (db.index.perfil[k] === undefined || db.index.perfil[k] === null) {
-      db.index.perfil[k] = perfilDefault[k];
-    }
-  });
-
-  // Guardar la versión "reparada"
-  try {
-    localStorage.setItem("portafolio_db", JSON.stringify(db));
-  } catch (e) {
-    console.warn("No se pudo guardar la db reparada:", e);
-  }
 
   let hash = window.location.hash.replace("#", "") || "index";
-  if (!db[hash]) hash = "index";
+  if (!dbDefault[hash]) hash = "index";
 
   const setBackground = (seccion) => {
-    let bgImg = db[seccion] && db[seccion].bg ? db[seccion].bg : "fondo/1.jpg";
+    let bgImg = dbDefault[seccion] && dbDefault[seccion].bg ? dbDefault[seccion].bg : "fondo/1.jpg";
     const isLight = document.body.classList.contains("light-theme");
     const overlay = isLight ? "rgba(248, 250, 252, 0.6)" : "rgba(11, 15, 25, 0.5)";
     document.body.style.backgroundImage = `linear-gradient(${overlay}, ${overlay}), url('${bgImg}')`;
@@ -89,7 +147,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const preloader = document.createElement("div");
   preloader.className = "preloader";
   preloader.innerHTML = `<div class="spinner"></div>`;
-
+  
   const customCursor = document.createElement("div");
   customCursor.className = "custom-cursor";
 
@@ -143,65 +201,6 @@ document.addEventListener("DOMContentLoaded", () => {
     </div>
   `;
 
-  const adminPanel = document.createElement("div");
-  adminPanel.className = "admin-panel";
-  adminPanel.innerHTML = `
-    <div class="admin-form">
-      <h3 id="admin-form-title">Agregar Documento</h3>
-      <input type="text" id="admin-title" placeholder="Título (Ej. Semana 1)">
-      <input type="text" id="admin-desc" placeholder="Descripción o Fecha (DD/MM/AAAA)">
-      <input type="text" id="admin-file" placeholder="Ruta del PDF (Ej. archivos/deberes/p1/d1.pdf)">
-      <input type="text" id="admin-grade" placeholder="Nota (Ej. 10/10)">
-      <select id="admin-parcial">
-        <option value="p1">Primer Parcial</option>
-        <option value="p2">Segundo Parcial</option>
-      </select>
-      <select id="admin-subseccion"></select>
-      <input type="hidden" id="admin-edit-id">
-      <div style="display: flex; gap: 1rem; margin-top: 1rem;">
-        <button id="admin-save">Guardar</button>
-        <button id="admin-cancel" class="cancel">Cancelar</button>
-      </div>
-    </div>
-  `;
-
-  const newSectionPanel = document.createElement("div");
-  newSectionPanel.className = "admin-panel new-section-panel";
-  newSectionPanel.innerHTML = `
-    <div class="admin-form">
-      <h3>Agregar Subsección</h3>
-      <input type="text" id="new-section-name" placeholder="Nombre (Ej. Evaluaciones Orales)">
-      <select id="new-section-parcial">
-        <option value="p1">Primer Parcial</option>
-        <option value="p2">Segundo Parcial</option>
-      </select>
-      <div style="display: flex; gap: 1rem; margin-top: 1rem;">
-        <button id="new-section-save">Crear</button>
-        <button id="new-section-cancel" class="cancel">Cancelar</button>
-      </div>
-    </div>
-  `;
-
-  const profileEditPanel = document.createElement("div");
-  profileEditPanel.className = "admin-panel";
-  profileEditPanel.id = "profile-edit-panel";
-  profileEditPanel.innerHTML = `
-    <div class="admin-form">
-      <h3>Editar Perfil</h3>
-      <input type="text" id="perfil-nombre" placeholder="Nombre completo">
-      <input type="text" id="perfil-rol" placeholder="Carrera / Rol">
-      <input type="text" id="perfil-universidad" placeholder="Universidad">
-      <input type="text" id="perfil-facultad" placeholder="Facultad">
-      <input type="text" id="perfil-curso" placeholder="Curso y Paralelo">
-      <input type="text" id="perfil-docente" placeholder="Docente">
-      <input type="text" id="perfil-foto" placeholder="Ruta de la foto (Ej. fondo/foto.jpg)">
-      <div style="display: flex; gap: 1rem; margin-top: 1rem;">
-        <button id="perfil-save">Guardar</button>
-        <button id="perfil-cancel" class="cancel">Cancelar</button>
-      </div>
-    </div>
-  `;
-
   document.body.prepend(modal);
   document.body.prepend(progressContainer);
   document.body.prepend(overlay);
@@ -209,9 +208,6 @@ document.addEventListener("DOMContentLoaded", () => {
   document.body.prepend(mobileHeader);
   document.body.prepend(customCursor);
   document.body.prepend(preloader);
-  document.body.appendChild(adminPanel);
-  document.body.appendChild(newSectionPanel);
-  document.body.appendChild(profileEditPanel);
 
   setTimeout(() => { preloader.classList.add("hidden"); }, 500);
 
@@ -253,132 +249,12 @@ document.addEventListener("DOMContentLoaded", () => {
     el.addEventListener("mouseleave", () => customCursor.classList.remove("hovering"));
   });
 
-  let clickCount = 0;
-  let clickTimer;
-  document.getElementById("secret-trigger").addEventListener("click", () => {
-    clickCount++;
-    clearTimeout(clickTimer);
-    clickTimer = setTimeout(() => { clickCount = 0; }, 1000);
-
-    if (clickCount === 5) {
-      document.body.classList.add("admin-mode");
-      clickCount = 0;
-      alert("¡Modo Administrador Activado! Ahora puedes crear, editar y eliminar.");
-      renderContent();
-    }
-  });
-
   const closeModal = () => {
     modal.classList.remove("active");
     setTimeout(() => { document.getElementById("modal-iframe").src = ""; }, 300);
   };
   document.querySelector(".modal-close").addEventListener("click", closeModal);
   modal.addEventListener("click", (e) => { if (e.target === modal) closeModal(); });
-
-  const openAdminForm = (editIndex = null, parcial = "p1", subseccion = null) => {
-    document.getElementById("admin-form-title").innerText = editIndex !== null ? "Editar Documento" : "Agregar Documento";
-    document.getElementById("admin-edit-id").value = editIndex !== null ? `${parcial}-${editIndex}` : "";
-
-    const selectSub = document.getElementById("admin-subseccion");
-    selectSub.innerHTML = "";
-    const subs = Object.keys(db[hash].items[parcial] || {});
-    subs.forEach(sub => {
-      const opt = document.createElement("option");
-      opt.value = sub;
-      opt.innerText = sub;
-      if (sub === subseccion) opt.selected = true;
-      selectSub.appendChild(opt);
-    });
-
-    document.getElementById("admin-parcial").value = parcial;
-
-    if (editIndex !== null) {
-      const item = db[hash].items[parcial][subseccion][editIndex];
-      document.getElementById("admin-title").value = item.t;
-      document.getElementById("admin-desc").value = item.d;
-      document.getElementById("admin-file").value = item.f;
-      document.getElementById("admin-grade").value = item.g || "";
-    } else {
-      document.getElementById("admin-title").value = "";
-      document.getElementById("admin-desc").value = "";
-      document.getElementById("admin-file").value = "";
-      document.getElementById("admin-grade").value = "";
-    }
-    adminPanel.classList.add("active");
-  };
-
-  document.getElementById("admin-cancel").addEventListener("click", () => adminPanel.classList.remove("active"));
-
-  document.getElementById("admin-save").addEventListener("click", () => {
-    const id = document.getElementById("admin-edit-id").value;
-    const t = document.getElementById("admin-title").value;
-    const d = document.getElementById("admin-desc").value;
-    const f = document.getElementById("admin-file").value;
-    const g = document.getElementById("admin-grade").value;
-    const p = document.getElementById("admin-parcial").value;
-    const sub = document.getElementById("admin-subseccion").value;
-
-    if (!t || !f) return alert("Título y Ruta del PDF son obligatorios");
-
-    if (!db[hash].items[p]) db[hash].items[p] = {};
-    if (!db[hash].items[p][sub]) db[hash].items[p][sub] = [];
-
-    if (id) {
-      const [oldP, oldIndex] = id.split("-");
-      db[hash].items[oldP][sub].splice(oldIndex, 1);
-      db[hash].items[p][sub].push({ t, d, f, g });
-    } else {
-      db[hash].items[p][sub].push({ t, d, f, g });
-    }
-
-    localStorage.setItem("portafolio_db", JSON.stringify(db));
-    adminPanel.classList.remove("active");
-    renderContent(p);
-  });
-
-  document.getElementById("new-section-cancel").addEventListener("click", () => newSectionPanel.classList.remove("active"));
-
-  document.getElementById("new-section-save").addEventListener("click", () => {
-    const name = document.getElementById("new-section-name").value.trim();
-    const p = document.getElementById("new-section-parcial").value;
-
-    if (!name) return alert("El nombre de la sección es obligatorio");
-    if (!db[hash].items[p]) db[hash].items[p] = {};
-    if (!db[hash].items[p][name]) {
-      db[hash].items[p][name] = [];
-      localStorage.setItem("portafolio_db", JSON.stringify(db));
-      alert(`Sección "${name}" creada con éxito.`);
-      newSectionPanel.classList.remove("active");
-      renderContent(p);
-    } else {
-      alert("Esa subsección ya existe en este parcial.");
-    }
-  });
-
-  window.deleteSubsection = (parcial, sub) => {
-    if (confirm(`¿Estás seguro de que quieres eliminar la subsección "${sub}" y todos sus documentos?`)) {
-      delete db[hash].items[parcial][sub];
-      localStorage.setItem("portafolio_db", JSON.stringify(db));
-      renderContent(parcial);
-    }
-  };
-
-  document.getElementById("perfil-cancel").addEventListener("click", () => profileEditPanel.classList.remove("active"));
-
-  document.getElementById("perfil-save").addEventListener("click", () => {
-    db.index.perfil = {
-      nombre: document.getElementById("perfil-nombre").value,
-      rol: document.getElementById("perfil-rol").value,
-      universidad: document.getElementById("perfil-universidad").value,
-      facultad: document.getElementById("perfil-facultad").value,
-      curso: document.getElementById("perfil-curso").value,
-      docente: document.getElementById("perfil-docente").value,
-      foto: document.getElementById("perfil-foto").value
-    };
-    localStorage.setItem("portafolio_db", JSON.stringify(db));
-    profileEditPanel.classList.remove("active");
-    renderContent();
-  });
 
   const extraerFecha = (texto) => {
     if (!texto) return null;
@@ -396,18 +272,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const renderContent = (parcialActivo = "p1") => {
     const appContent = document.getElementById("app-content");
-
-    if (!appContent) {
-      console.error("Falta el elemento <div id='app-content'></div> en el HTML.");
-      return;
-    }
+    if (!appContent) return;
 
     if (hash === "index") {
-      const p = db.index.perfil;
+      const p = dbDefault.index.perfil;
       const inicial = (p.nombre && p.nombre.trim()) ? p.nombre.trim().charAt(0).toUpperCase() : "?";
-      const avatarContent = p.foto
-        ? `<img src="${p.foto}" alt="Foto de perfil" onerror="this.replaceWith(document.createTextNode('${inicial}'))">`
-        : inicial;
+      const avatarContent = p.foto ? `<img src="${p.foto}" alt="Foto de perfil" onerror="this.replaceWith(document.createTextNode('${inicial}'))">` : inicial;
 
       appContent.innerHTML = `
         <div class="page-header">
@@ -415,7 +285,6 @@ document.addEventListener("DOMContentLoaded", () => {
             <h1 class="page-title">Información del Estudiante</h1>
             <p class="page-subtitle">Datos académicos y perfil del portafolio</p>
           </div>
-          <button class="add-new-btn" id="edit-profile-btn" style="display: none;">Editar Perfil</button>
         </div>
         <div class="profile-layout">
           <div class="profile-card">
@@ -436,26 +305,10 @@ document.addEventListener("DOMContentLoaded", () => {
           </div>
         </div>
       `;
-
-      const editBtn = document.getElementById("edit-profile-btn");
-      if (document.body.classList.contains("admin-mode")) {
-        editBtn.style.display = "block";
-      }
-
-      editBtn.addEventListener("click", () => {
-        document.getElementById("perfil-nombre").value = p.nombre;
-        document.getElementById("perfil-rol").value = p.rol;
-        document.getElementById("perfil-universidad").value = p.universidad;
-        document.getElementById("perfil-facultad").value = p.facultad;
-        document.getElementById("perfil-curso").value = p.curso;
-        document.getElementById("perfil-docente").value = p.docente;
-        document.getElementById("perfil-foto").value = p.foto || "";
-        profileEditPanel.classList.add("active");
-      });
       return;
     }
 
-    const data = db[hash];
+    const data = dbDefault[hash];
 
     let html = `
       <div class="page-header">
@@ -471,8 +324,6 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="tabs-container">
         <button class="tab-btn ${parcialActivo === 'p1' ? 'active' : ''}" data-parcial="p1">Primer Parcial</button>
         <button class="tab-btn ${parcialActivo === 'p2' ? 'active' : ''}" data-parcial="p2">Segundo Parcial</button>
-        <button class="add-new-btn" onclick="document.getElementById('admin-save').click()">+ Documento</button>
-        <button class="add-new-btn" style="background: rgba(255,255,255,0.1); margin-left: 0.5rem;" onclick="document.querySelector('.new-section-panel').classList.add('active')">+ Subsección</button>
       </div>
       <div class="tabs-container" id="sub-tabs-container" style="border-bottom: none; padding-bottom: 0; margin-bottom: 1.5rem;">
     `;
@@ -482,7 +333,6 @@ document.addEventListener("DOMContentLoaded", () => {
       html += `
         <div style="display: flex; align-items: center; gap: 0.2rem; margin-right: 0.5rem;">
           <button class="tab-btn sub-tab-btn ${idx === 0 ? 'active' : ''}" data-sub="${sub}" style="font-size: 0.9rem; padding: 0.3rem 0.8rem;">${sub}</button>
-          <button class="delete-sub-btn" onclick="deleteSubsection('${parcialActivo}', '${sub}')" style="display: none; background: rgba(239, 68, 68, 0.2); border: none; color: #ef4444; border-radius: 50%; width: 20px; height: 20px; cursor: pointer; font-size: 0.7rem; align-items: center; justify-content: center;">X</button>
         </div>
       `;
     });
@@ -492,10 +342,6 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="grid-container" id="grid-content"></div>
     `;
     appContent.innerHTML = html;
-
-    if (document.body.classList.contains("admin-mode")) {
-      document.querySelectorAll(".delete-sub-btn").forEach(btn => btn.style.display = "flex");
-    }
 
     const subTabs = document.querySelectorAll(".sub-tab-btn");
     let subActiva = subsecciones.length > 0 ? subsecciones[0] : "General";
@@ -536,13 +382,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <a href="${item.f}" class="btn">Ver Documento</a>
               <div class="grade-container">
                 <span class="grade-label">Calificación</span>
-                <div style="display:flex; align-items:center; gap:0.5rem;">
-                  <span class="grade-badge">${item.g || "Sin nota"}</span>
-                  <div class="admin-controls">
-                    <button class="edit-btn" onclick="editItem(${index}, '${parcial}', '${sub}')">Editar</button>
-                    <button class="delete-btn" onclick="deleteItem(${index}, '${parcial}', '${sub}')">Borrar</button>
-                  </div>
-                </div>
+                <span class="grade-badge">${item.g || "Sin nota"}</span>
               </div>
             </div>
           `;
@@ -559,27 +399,8 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
 
-    document.querySelectorAll(".add-new-btn")[0].onclick = (e) => {
-      e.preventDefault();
-      openAdminForm(null, parcialActivo, subActiva);
-    };
-
-    document.querySelectorAll(".add-new-btn")[1].onclick = (e) => {
-      e.preventDefault();
-      document.querySelector(".new-section-panel").classList.add("active");
-    };
-
     renderCards(parcialActivo, subActiva);
     setupSearch();
-  };
-
-  window.editItem = (index, parcial, sub) => openAdminForm(index, parcial, sub);
-  window.deleteItem = (index, parcial, sub) => {
-    if (confirm("¿Seguro que quieres eliminar este documento?")) {
-      db[hash].items[parcial][sub].splice(index, 1);
-      localStorage.setItem("portafolio_db", JSON.stringify(db));
-      renderContent(parcial);
-    }
   };
 
   const setupCardEvents = () => {
@@ -603,6 +424,7 @@ document.addEventListener("DOMContentLoaded", () => {
       card.addEventListener('mouseleave', () => {
         card.style.transform = `perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)`;
       });
+      
       const btn = card.querySelector('.btn');
       const urlPdf = card.getAttribute('data-pdf');
       if (btn && urlPdf) {
