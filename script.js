@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { t: "EVALUACION APLICACION FUNCIONES", d: "16/09/2026", f: "documentos/evaluaciones/primero/ev-escritas/EVALUACION_APLICACION_FUNCIONES_16-09-2026.pdf", g: "3/10" }
           ],
           "Evaluación Parcial": [
-            { t: "EVALUACIÓN PRIMER PARCIAL", d: "22/09/2026", f: "documentos/evaluaciones/primero/ev-par/PRUEBA_MATEMATICAS_compressed.pdf", g: "6.25/10" }
+            { t: "EVALUACIÓN PRIMER PARCIAL", d: "22/09/2026", f: "documentos/evaluaciones/primero/ev-par/PRUEBA_MATEMÁTICAS_compressed.pdf", g: "6.25/10" }
           ]
         }, 
         p2: { 
