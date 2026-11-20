@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // BASE DE DATOS ESTÁTICA (Aquí editas tus documentos)
   // ============================================================
   const dbDefault = {
-    // SECCIÓN MATERIA (Actualizada con tus capturas)
+    // SECCIÓN MATERIA
     materia: { 
       titulo: "Materia", 
       subtitulo: "Apuntes e información", 
@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
         p1: { 
           "Tareas": [],
           "Foro": [
-            { t: "FORO DE PRESENTACIÓN", d: "21/08/2026", f: "documentos/deberes/primero/foro/FORO.pdf", g: "9.5/10" }
+            { t: "FORO DE PRESENTACIÓN", d: "21/08/2026", f: "documentos/deberes/primero/FORO.pdf", g: "9.5/10" }
           ]
         }, 
         p2: { "Tareas": [], "Foro": [] } 
