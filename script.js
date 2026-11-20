@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { t: "EVALUACION APLICACION FUNCIONES", d: "16/09/2026", f: "documentos/evaluaciones/primero/ev-escritas/EVALUACION_APLICACION_FUNCIONES_16-09-2026.pdf", g: "3/10" }
           ],
           "Evaluación Parcial": [
-            { t: "EVALUACIÓN PRIMER PARCIAL", d: "22/09/2026", f: "documentos/evaluaciones/primero/ev-par/PRUEBA_MATEMÁTICAS_compressed.pdf", g: "6.25/10" }
+            { t: "EVALUACIÓN PRIMER PARCIAL", d: "22/09/2026", f: "documentos/evaluaciones/primero/ev-par/PRUEBA_MATEMATICAS_compressed.pdf", g: "6.25/10" }
           ]
         }, 
         p2: { 
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
       } 
     },
     
-    // SECCIÓN APES
+    // SECCIÓN APES (Actualizada con los nombres de tu captura)
     apes: { 
       titulo: "APES", 
       subtitulo: "Aprendizaje autónomo", 
@@ -66,8 +66,8 @@ document.addEventListener("DOMContentLoaded", () => {
       items: { 
         p1: { 
           "Tareas": [
-            { t: "APRENDIZAJE PRACTICO EXPERIMENTAL 1", d: "30/08/2026", f: "documentos/apes/primero/APE_1.pdf", g: "9.5/10" },
-            { t: "APRENDIZAJE PRACTICO EXPERIMENTAL 4", d: "27/09/2026", f: "documentos/apes/primero/APE_4.pdf", g: "8/10" }
+            { t: "ENSAYO DE LÍMITES Y DERIVADAS", d: "30/08/2026", f: "documentos/apes/primero/Ensayo_de_limites_y_derivadas.pdf", g: "9.5/10" },
+            { t: "FUNCIONES ALGEBRAICAS Y TRASCENDENTES", d: "27/09/2026", f: "documentos/apes/primero/FUNCIONES_ALGEBRAICAS_Y_TRASCENDENTES.pdf", g: "8/10" }
           ] 
         }, 
         p2: { "Tareas": [] } 
