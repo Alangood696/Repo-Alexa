@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const dbDefault = {
     materia: { titulo: "Materia", subtitulo: "Apuntes e información", bg: "fondo/2.jpg", items: { p1: { "Apuntes": [] }, p2: { "Apuntes": [] } } },
     
-    // SECCIÓN EVALUACIONES
+    // SECCIÓN EVALUACIONES (Rutas ya corregidas en el paso anterior)
     evaluaciones: { 
       titulo: "Evaluaciones", 
       subtitulo: "Pruebas y calificaciones", 
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
       } 
     },
     
-    // SECCIÓN APES (Actualizada con los nombres de tu captura)
+    // SECCIÓN APES
     apes: { 
       titulo: "APES", 
       subtitulo: "Aprendizaje autónomo", 
@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
       } 
     },
     
-    // SECCIÓN EKOS
+    // SECCIÓN EKOS (Actualizada con los nombres de tu captura 1)
     ekos: { 
       titulo: "EKOS", 
       subtitulo: "Plataforma", 
@@ -82,13 +82,13 @@ document.addEventListener("DOMContentLoaded", () => {
       items: { 
         p1: { 
           "Tareas": [
-            { t: "LECTURA CRÍTICA PRIMERA SEMANA EKOS", d: "18/08/2026", f: "documentos/ekos/primero/LECTURA_1.pdf", g: "4.3/10" },
-            { t: "LECTURA CRÍTICA SEGUNDA SEMANA FUNCIONES EKOS", d: "20/08/2026", f: "documentos/ekos/primero/LECTURA_2.pdf", g: "5/10" },
-            { t: "LECTURA CRÍTICA TERCERA SEMANA EKOS", d: "26/08/2026", f: "documentos/ekos/primero/LECTURA_3.pdf", g: "6/10" },
-            { t: "LECTURA CRÍTICA CUARTA SEMANA BINOMIO DE NEWTON EKOS", d: "02/09/2026", f: "documentos/ekos/primero/LECTURA_4.pdf", g: "9/10" },
-            { t: "LECTURA CRÍTICA QUINTA SEMANA EKOS", d: "09/09/2026", f: "documentos/ekos/primero/LECTURA_5.pdf", g: "5/10" },
-            { t: "LECTURA CRÍTICA LÍMITES SEXTA SEMANA EKOS", d: "16/09/2026", f: "documentos/ekos/primero/LECTURA_6.pdf", g: "8/10" },
-            { t: "LECTURA CRÍTICA SEPTIMA SEMANA EKOS", d: "17/09/2026", f: "documentos/ekos/primero/LECTURA_7.pdf", g: "9.5/10" }
+            { t: "CÁLCULO DEL DOMINIO Y RANGO DE UNA FUNCIÓN", d: "18/08/2026", f: "documentos/ekos/primero/CÁLCULO_DEL_DOMINIO_Y_RANGO_DE_UNA_FUNCIÓN.pdf", g: "4.3/10" },
+            { t: "EKOS", d: "20/08/2026", f: "documentos/ekos/primero/EKOS.pdf", g: "5/10" },
+            { t: "EKOS SEMANA 1", d: "26/08/2026", f: "documentos/ekos/primero/EKOS_SEMANA_1.pdf", g: "6/10" },
+            { t: "FUNCIONES EN ECONOMÍA", d: "02/09/2026", f: "documentos/ekos/primero/FUNCIONES_EN_ECONOMÍA.pdf", g: "9/10" },
+            { t: "LECTURA CRÍTICA TERCERA SEMANA EKOS", d: "09/09/2026", f: "documentos/ekos/primero/LECTURA_CRÍTICA_TERCERA_SEMANA_EKOS.pdf", g: "5/10" },
+            { t: "SEMANA 2", d: "16/09/2026", f: "documentos/ekos/primero/SEMANA_2.pdf", g: "8/10" },
+            { t: "SÉPTIMA SEMANA", d: "17/09/2026", f: "documentos/ekos/primero/SÉPTIMA_SEMANA.pdf", g: "9.5/10" }
           ] 
         }, 
         p2: { "Tareas": [] } 
@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
     consultas: { titulo: "Consultas", subtitulo: "Comp y mano", bg: "fondo/7.jpg", items: { p1: { "Consultas": [] }, p2: { "Consultas": [] } } },
     
-    // SECCIÓN LECTURAS CRÍTICAS
+    // SECCIÓN LECTURAS CRÍTICAS (Actualizada con los nombres de tu captura 2)
     lecturas: { 
       titulo: "Lecturas", 
       subtitulo: "Análisis", 
@@ -105,8 +105,8 @@ document.addEventListener("DOMContentLoaded", () => {
       items: { 
         p1: { 
           "Lecturas": [
-            { t: "Conjetura de Poincaré", d: "26/08/2026", f: "documentos/lecturas/primero/POINCARE.pdf", g: "9.5/10" },
-            { t: "PROBLEMA DE SIERPINSKI", d: "16/09/2026", f: "documentos/lecturas/primero/SIERPINSKI.pdf", g: "10/10" }
+            { t: "CONJETURA DE POINCARÉ", d: "26/08/2026", f: "documentos/lecturas/primero/Conjetura_de_Poincaré.pdf", g: "9.5/10" },
+            { t: "PROBLEMA DE SIERPINSKI", d: "16/09/2026", f: "documentos/lecturas/primero/PROBLEMA_DE_SIERPINSKI.pdf", g: "10/10" }
           ] 
         }, 
         p2: { "Lecturas": [] } 
