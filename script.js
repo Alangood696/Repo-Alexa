@@ -59,14 +59,23 @@ document.addEventListener("DOMContentLoaded", () => {
       } 
     },
     
-    // SECCIÓN DEBERES
+    // SECCIÓN DEBERES (Actualizada con todas tus tareas)
     deberes: { 
       titulo: "Deberes", 
       subtitulo: "Tareas del semestre", 
       bg: "fondo/4.jpg", 
       items: { 
         p1: { 
-          "Tareas": [],
+          "Tareas": [
+            { t: "TAREA SEMANA 1 MATE", d: "21/06/2026", f: "documentos/deberes/primero/TAREA SEMANA 1 MATE.pdf", g: "..." },
+            { t: "TAREA SEMANA 2 MATE", d: "22/06/2026", f: "documentos/deberes/primero/TAREA SEMANA 2 MATE.pdf", g: "..." },
+            { t: "TAREAS TERCERA SEMANA", d: "24/06/2026", f: "documentos/deberes/primero/TAREAS TERCERA SEMANA.pdf", g: "9.5/10" },
+            { t: "TAREA SEMANA 4 MATE", d: "25/06/2026", f: "documentos/deberes/primero/TAREA SEMANA 4 MATE.pdf", g: "..." },
+            { t: "TAREAS QUINTA SEMANA", d: "09/08/2026", f: "documentos/deberes/primero/TAREAS QUINTA SEMANA.pdf", g: "9/10" },
+            { t: "TAREA SEMANA 6 MATE", d: "10/09/2026", f: "documentos/deberes/primero/TAREA SEMANA 6 MATE.pdf", g: "..." },
+            { t: "TAREA SEMANA 7 MATE", d: "11/09/2026", f: "documentos/deberes/primero/TAREA SEMANA 7 MATE.pdf", g: "..." },
+            { t: "TAREA SEMANA 8 MATE", d: "15/09/2026", f: "documentos/deberes/primero/TAREA SEMANA 8 MATE.pdf", g: "..." }
+          ],
           "Foro": [
             { t: "FORO DE PRESENTACIÓN", d: "21/08/2026", f: "documentos/deberes/primero/FORO.pdf", g: "9.5/10" }
           ]
