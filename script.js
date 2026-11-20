@@ -14,35 +14,35 @@ document.addEventListener("DOMContentLoaded", () => {
       bg: "fondo/3.jpg", 
       items: { 
         p1: { 
-          "Evaluaciones Virtuales": [
-            { t: "DEFINICIONES BÁSICAS FUNCIONES", d: "19/08/2026", f: "archivos/evaluaciones/parcial-1/DEFINICIONES.pdf", g: "10/10" },
-            { t: "EVALUACIÓN FUNCIONES", d: "26/08/2026", f: "archivos/evaluaciones/parcial-1/FUNCIONES.pdf", g: "5/10" },
-            { t: "EVALUACIÓN LA CONJETURA DE POINCARÉ", d: "26/08/2026", f: "archivos/evaluaciones/parcial-1/POINCARE.pdf", g: "7.5/10" },
-            { t: "EVALUACIÓN BINOMIO DE NEWTON", d: "09/09/2026", f: "archivos/evaluaciones/parcial-1/NEWTON.pdf", g: "5/10" },
-            { t: "EVALUACIÓN APLICACIÓN DE LAS FUNCIONES", d: "16/09/2026", f: "archivos/evaluaciones/parcial-1/APLICACION.pdf", g: "10/10" },
-            { t: "EVALUACIÓN EL PROBLEMA DE SIERPINSKI", d: "16/09/2026", f: "archivos/evaluaciones/parcial-1/SIERPINSKI.pdf", g: "6/10" },
-            { t: "EVALUACIÓN LÍMITES", d: "23/09/2026", f: "archivos/evaluaciones/parcial-1/LIMITES.pdf", g: "5/10" }
+          "Evaluaciones en Plataforma": [
+            { t: "DEFINICIONES BÁSICA FUNCIONES", d: "19/08/2026", f: "documentos/evaluaciones/primero/ev-pl/DEFINICIONES_BÁSICA_FUNCIOES_19-08-2026.pdf", g: "10/10" },
+            { t: "EVALUACIÓN FUNCIONES", d: "26/08/2026", f: "documentos/evaluaciones/primero/ev-pl/EVALUACIÓN_FUNCIONES_26-08-2026.pdf", g: "5/10" },
+            { t: "EVALUACIÓN LA CONJETURA DE POINCARÉ", d: "26/08/2026", f: "documentos/evaluaciones/primero/ev-pl/EVALUACIÓN_LA_CONJETURA_DE_POINCARÉ_26-08-2026.pdf", g: "7.5/10" },
+            { t: "EVALUACIÓN BINOMIO DE NEWTON", d: "09/09/2026", f: "documentos/evaluaciones/primero/ev-pl/EVALUACIÓN_BINOMIO_DE_NEWTON_09-09-2026.pdf", g: "5/10" },
+            { t: "EVALUACIÓN APLICACIÓN DE LAS FUNCIONES", d: "16/09/2026", f: "documentos/evaluaciones/primero/ev-pl/EVALUACIÓN_APLICACIÓN_DE_LAS_FUNCIONES_16-09-2026.pdf", g: "10/10" },
+            { t: "EVALUACIÓN EL PROBLEMA DE SIERPINSKI", d: "16/09/2026", f: "documentos/evaluaciones/primero/ev-pl/EVALUACIÓN_EL_PROBLEMA_DE_SIERPINSKI_16-09-2026.pdf", g: "6/10" },
+            { t: "EVALUACIÓN LÍMITES", d: "23/09/2026", f: "documentos/evaluaciones/primero/ev-pl/EVALUACIÓN_LÍMITES_23-09-2026.pdf", g: "5/10" }
           ],
           "Evaluaciones Escritas": [
-            { t: "EVALUACIÓN_CLASIFICACIÓN_DE_FUNCIONES", d: "24/08/2026", f: "archivos/evaluaciones/parcial-1/CLASIFICACION.pdf", g: "3/10" },
-            { t: "EVALUACIÓN_TRIÁNGULO_DE_PASCAL", d: "25/08/2026", f: "archivos/evaluaciones/parcial-1/TRIANGULO.pdf", g: "2/10" },
-            { t: "TALLER_BINOMIO_DE_NEWTON", d: "01/09/2026", f: "archivos/evaluaciones/parcial-1/TALLER_NEWTON.pdf", g: "5.5/10" },
-            { t: "EVALUACIÓN_FUNCIONES_DOMINIO", d: "09/09/2026", f: "archivos/evaluaciones/parcial-1/DOMINIO.pdf", g: "8/10" },
-            { t: "EVALUACION_APLICACION_FUNCIONES", d: "16/09/2026", f: "archivos/evaluaciones/parcial-1/APLICACION_ESCRITA.pdf", g: "3/10" }
+            { t: "EVALUACIÓN CLASIFICACIÓN DE LAS FUNCIONES", d: "24/08/2026", f: "documentos/evaluaciones/primero/ev-escritas/EVALUACIÓN_CLASIFICACIÓN_DE_LAS_FUNCIONES_24-08-2026.pdf", g: "3/10" },
+            { t: "EVALUACIÓN TRIÁNGULO DE PASCAL", d: "25/08/2026", f: "documentos/evaluaciones/primero/ev-escritas/EVALUACIÓN_TRIÁNGULO_DE_PASCAL_25-08-2026.pdf", g: "2/10" },
+            { t: "TALLER BINOMIO DE NEWTON", d: "01/09/2026", f: "documentos/evaluaciones/primero/ev-escritas/TALLER_BINOMIO_DE_NEWTON_01-09-2026.pdf", g: "5.5/10" },
+            { t: "EVALUACIÓN FUNCIONES DOMINIO Y RANGO", d: "09/09/2026", f: "documentos/evaluaciones/primero/ev-escritas/EVALUACIÓN_FUNCIONES_DOMINIO_Y_RANGO_09-09-2026.pdf", g: "8/10" },
+            { t: "EVALUACION APLICACION FUNCIONES", d: "16/09/2026", f: "documentos/evaluaciones/primero/ev-escritas/EVALUACION_APLICACION_FUNCIONES_16-09-2026.pdf", g: "3/10" }
           ],
           "Evaluación Parcial": [
-            { t: "EVALUACIÓN PRIMER PARCIAL", d: "22/09/2026", f: "archivos/evaluaciones/parcial-1/PARCIAL_1.pdf", g: "6.25/10" }
+            { t: "EVALUACIÓN PRIMER PARCIAL", d: "22/09/2026", f: "documentos/evaluaciones/primero/ev-par/PRUEBA_MATEMATICAS_compressed.pdf", g: "6.25/10" }
           ]
         }, 
         p2: { 
-          "Evaluaciones Virtuales": [], 
+          "Evaluaciones en Plataforma": [], 
           "Evaluaciones Escritas": [],
           "Evaluación Parcial": []
         } 
       } 
     },
     
-    // SECCIÓN DEBERES (Nueva información)
+    // SECCIÓN DEBERES
     deberes: { 
       titulo: "Deberes", 
       subtitulo: "Tareas del semestre", 
@@ -51,14 +51,14 @@ document.addEventListener("DOMContentLoaded", () => {
         p1: { 
           "Tareas": [],
           "Foro": [
-            { t: "FORO DE PRESENTACIÓN", d: "21/08/2026", f: "archivos/deberes/parcial-1/FORO.pdf", g: "9.5/10" }
+            { t: "FORO DE PRESENTACIÓN", d: "21/08/2026", f: "documentos/deberes/primero/foro/FORO.pdf", g: "9.5/10" }
           ]
         }, 
         p2: { "Tareas": [], "Foro": [] } 
       } 
     },
     
-    // SECCIÓN APES (Nueva información)
+    // SECCIÓN APES
     apes: { 
       titulo: "APES", 
       subtitulo: "Aprendizaje autónomo", 
@@ -66,15 +66,15 @@ document.addEventListener("DOMContentLoaded", () => {
       items: { 
         p1: { 
           "Tareas": [
-            { t: "APRENDIZAJE PRACTICO EXPERIMENTAL 1", d: "30/08/2026", f: "archivos/apes/parcial-1/APE_1.pdf", g: "9.5/10" },
-            { t: "APRENDIZAJE PRACTICO EXPERIMENTAL 4", d: "27/09/2026", f: "archivos/apes/parcial-1/APE_4.pdf", g: "8/10" }
+            { t: "APRENDIZAJE PRACTICO EXPERIMENTAL 1", d: "30/08/2026", f: "documentos/apes/primero/APE_1.pdf", g: "9.5/10" },
+            { t: "APRENDIZAJE PRACTICO EXPERIMENTAL 4", d: "27/09/2026", f: "documentos/apes/primero/APE_4.pdf", g: "8/10" }
           ] 
         }, 
         p2: { "Tareas": [] } 
       } 
     },
     
-    // SECCIÓN EKOS (Nueva información)
+    // SECCIÓN EKOS
     ekos: { 
       titulo: "EKOS", 
       subtitulo: "Plataforma", 
@@ -82,13 +82,13 @@ document.addEventListener("DOMContentLoaded", () => {
       items: { 
         p1: { 
           "Tareas": [
-            { t: "LECTURA CRÍTICA PRIMERA SEMANA EKOS", d: "18/08/2026", f: "archivos/ekos/parcial-1/LECTURA_1.pdf", g: "4.3/10" },
-            { t: "LECTURA CRÍTICA SEGUNDA SEMANA FUNCIONES EKOS", d: "20/08/2026", f: "archivos/ekos/parcial-1/LECTURA_2.pdf", g: "5/10" },
-            { t: "LECTURA CRÍTICA TERCERA SEMANA EKOS", d: "26/08/2026", f: "archivos/ekos/parcial-1/LECTURA_3.pdf", g: "6/10" },
-            { t: "LECTURA CRÍTICA CUARTA SEMANA BINOMIO DE NEWTON EKOS", d: "02/09/2026", f: "archivos/ekos/parcial-1/LECTURA_4.pdf", g: "9/10" },
-            { t: "LECTURA CRÍTICA QUINTA SEMANA EKOS", d: "09/09/2026", f: "archivos/ekos/parcial-1/LECTURA_5.pdf", g: "5/10" },
-            { t: "LECTURA CRÍTICA LÍMITES SEXTA SEMANA EKOS", d: "16/09/2026", f: "archivos/ekos/parcial-1/LECTURA_6.pdf", g: "8/10" },
-            { t: "LECTURA CRÍTICA SEPTIMA SEMANA EKOS", d: "17/09/2026", f: "archivos/ekos/parcial-1/LECTURA_7.pdf", g: "9.5/10" }
+            { t: "LECTURA CRÍTICA PRIMERA SEMANA EKOS", d: "18/08/2026", f: "documentos/ekos/primero/LECTURA_1.pdf", g: "4.3/10" },
+            { t: "LECTURA CRÍTICA SEGUNDA SEMANA FUNCIONES EKOS", d: "20/08/2026", f: "documentos/ekos/primero/LECTURA_2.pdf", g: "5/10" },
+            { t: "LECTURA CRÍTICA TERCERA SEMANA EKOS", d: "26/08/2026", f: "documentos/ekos/primero/LECTURA_3.pdf", g: "6/10" },
+            { t: "LECTURA CRÍTICA CUARTA SEMANA BINOMIO DE NEWTON EKOS", d: "02/09/2026", f: "documentos/ekos/primero/LECTURA_4.pdf", g: "9/10" },
+            { t: "LECTURA CRÍTICA QUINTA SEMANA EKOS", d: "09/09/2026", f: "documentos/ekos/primero/LECTURA_5.pdf", g: "5/10" },
+            { t: "LECTURA CRÍTICA LÍMITES SEXTA SEMANA EKOS", d: "16/09/2026", f: "documentos/ekos/primero/LECTURA_6.pdf", g: "8/10" },
+            { t: "LECTURA CRÍTICA SEPTIMA SEMANA EKOS", d: "17/09/2026", f: "documentos/ekos/primero/LECTURA_7.pdf", g: "9.5/10" }
           ] 
         }, 
         p2: { "Tareas": [] } 
@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
     consultas: { titulo: "Consultas", subtitulo: "Comp y mano", bg: "fondo/7.jpg", items: { p1: { "Consultas": [] }, p2: { "Consultas": [] } } },
     
-    // SECCIÓN LECTURAS CRÍTICAS (Nueva información)
+    // SECCIÓN LECTURAS CRÍTICAS
     lecturas: { 
       titulo: "Lecturas", 
       subtitulo: "Análisis", 
@@ -105,8 +105,8 @@ document.addEventListener("DOMContentLoaded", () => {
       items: { 
         p1: { 
           "Lecturas": [
-            { t: "Conjetura de Poincaré", d: "26/08/2026", f: "archivos/lecturas/parcial-1/POINCARE.pdf", g: "9.5/10" },
-            { t: "PROBLEMA DE SIERPINSKI", d: "16/09/2026", f: "archivos/lecturas/parcial-1/SIERPINSKI.pdf", g: "10/10" }
+            { t: "Conjetura de Poincaré", d: "26/08/2026", f: "documentos/lecturas/primero/POINCARE.pdf", g: "9.5/10" },
+            { t: "PROBLEMA DE SIERPINSKI", d: "16/09/2026", f: "documentos/lecturas/primero/SIERPINSKI.pdf", g: "10/10" }
           ] 
         }, 
         p2: { "Lecturas": [] } 
