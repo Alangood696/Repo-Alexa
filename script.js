@@ -5,9 +5,26 @@ document.addEventListener("DOMContentLoaded", () => {
   // BASE DE DATOS ESTÁTICA (Aquí editas tus documentos)
   // ============================================================
   const dbDefault = {
-    materia: { titulo: "Materia", subtitulo: "Apuntes e información", bg: "fondo/2.jpg", items: { p1: { "Apuntes": [] }, p2: { "Apuntes": [] } } },
+    // SECCIÓN MATERIA (Actualizada con tus capturas)
+    materia: { 
+      titulo: "Materia", 
+      subtitulo: "Apuntes e información", 
+      bg: "fondo/2.jpg", 
+      items: { 
+        p1: { 
+          "Apuntes": [
+            { t: "MATERIA PRIMER PARCIAL", d: "22/11/2026", f: "documentos/materia/primero/MATERIA PRIMER PARCIAL.pdf", g: "..." }
+          ] 
+        }, 
+        p2: { 
+          "Apuntes": [
+            { t: "MATERIA SEGUNDO PARCIAL", d: "22/11/2026", f: "documentos/materia/segundo/MATERIA SEGUNDO PARCIAL.pdf", g: "..." }
+          ] 
+        } 
+      } 
+    },
     
-    // SECCIÓN EVALUACIONES (Rutas ya corregidas en el paso anterior)
+    // SECCIÓN EVALUACIONES
     evaluaciones: { 
       titulo: "Evaluaciones", 
       subtitulo: "Pruebas y calificaciones", 
@@ -74,7 +91,7 @@ document.addEventListener("DOMContentLoaded", () => {
       } 
     },
     
-    // SECCIÓN EKOS (Actualizada con los nombres de tu captura 1)
+    // SECCIÓN EKOS
     ekos: { 
       titulo: "EKOS", 
       subtitulo: "Plataforma", 
@@ -97,7 +114,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
     consultas: { titulo: "Consultas", subtitulo: "Comp y mano", bg: "fondo/7.jpg", items: { p1: { "Consultas": [] }, p2: { "Consultas": [] } } },
     
-    // SECCIÓN LECTURAS CRÍTICAS (Actualizada con los nombres de tu captura 2)
+    // SECCIÓN LECTURAS CRÍTICAS
     lecturas: { 
       titulo: "Lecturas", 
       subtitulo: "Análisis", 
