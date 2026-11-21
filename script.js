@@ -2,10 +2,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const svgDoc = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>`;
 
   // ============================================================
-  // BASE DE DATOS ESTÁTICA (Aquí editas tus documentos)
+  // BASE DE DATOS ESTÁTICA
   // ============================================================
   const dbDefault = {
-    // SECCIÓN MATERIA
     materia: { 
       titulo: "Materia", 
       subtitulo: "Apuntes e información", 
@@ -24,7 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
       } 
     },
     
-    // SECCIÓN EVALUACIONES
     evaluaciones: { 
       titulo: "Evaluaciones", 
       subtitulo: "Pruebas y calificaciones", 
@@ -59,7 +57,6 @@ document.addEventListener("DOMContentLoaded", () => {
       } 
     },
     
-    // SECCIÓN DEBERES (Actualizada con todas tus tareas)
     deberes: { 
       titulo: "Deberes", 
       subtitulo: "Tareas del semestre", 
@@ -84,7 +81,6 @@ document.addEventListener("DOMContentLoaded", () => {
       } 
     },
     
-    // SECCIÓN APES
     apes: { 
       titulo: "APES", 
       subtitulo: "Aprendizaje autónomo", 
@@ -100,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
       } 
     },
     
-    // SECCIÓN EKOS
+    // SECCIÓN EKOS CORREGIDA (Enlaces reales de tu GitHub)
     ekos: { 
       titulo: "EKOS", 
       subtitulo: "Plataforma", 
@@ -108,13 +104,13 @@ document.addEventListener("DOMContentLoaded", () => {
       items: { 
         p1: { 
           "Tareas": [
-            { t: "LECTURA CRÍTICA PRIMERA SEMANA EKOS", d: "18/08/2026", f: "documentos/ekos/primero/LECTURA_CRÍTICA_PRIMERA_SEMANA_EKOS.pdf", g: "4.3/10" },
-            { t: "LECTURA CRITICA SEGUNDA SEMANA FUNCIONES EKOS", d: "20/08/2026", f: "documentos/ekos/primero/LECTURA_CRITICA_SEGUNDA_SEMANA_FUNCIONES_EKOS.pdf", g: "5/10" },
-            { t: "LECTURA CRÍTICA TERCERA SEMANA EKOS", d: "26/08/2026", f: "documentos/ekos/primero/LECTURA_CRÍTICA_TERCERA_SEMANA_EKOS.pdf", g: "6/10" },
-            { t: "LECTURA CRÍTICA CUARTA SEMANA BINOMIO DE NEWTON EKOS", d: "02/09/2026", f: "documentos/ekos/primero/LECTURA_CRÍTICA_CUARTA_SEMANA_BINOMIO_DE_NEWTON_EKOS.pdf", g: "9/10" },
-            { t: "LECTURA CRÍTICA TERCERA SEMANA EKOS", d: "09/09/2026", f: "documentos/ekos/primero/LECTURA_CRÍTICA_TERCERA_SEMANA_EKOS.pdf", g: "5/10" },
-            { t: "SEMANA 2", d: "16/09/2026", f: "documentos/ekos/primero/SEMANA_2.pdf", g: "8/10" },
-            { t: "SÉPTIMA SEMANA", d: "17/09/2026", f: "documentos/ekos/primero/SÉPTIMA_SEMANA.pdf", g: "9.5/10" }
+            { t: "LECTURA CRÍTICA PRIMERA SEMANA EKOS", d: "18/08/2026", f: "documentos/ekos/primero/CÁLCULO_DEL_DOMINIO_Y_RANGO_DE_UNA_FUNCIÓN.pdf", g: "4.3/10" },
+            { t: "LECTURA CRITICA SEGUNDA SEMANA FUNCIONES EKOS", d: "20/08/2026", f: "documentos/ekos/primero/EKOS.pdf", g: "5/10" },
+            { t: "LECTURA CRÍTICA TERCERA SEMANA EKOS", d: "26/08/2026", f: "documentos/ekos/primero/EKOS_SEMANA_1.pdf", g: "6/10" },
+            { t: "LECTURA CRÍTICA CUARTA SEMANA BINOMIO DE NEWTON EKOS", d: "02/09/2026", f: "documentos/ekos/primero/FUNCIONES_EN_ECONOMÍA.pdf", g: "9/10" },
+            { t: "LECTURA CRÍTICA QUINTA SEMANA EKOS", d: "09/09/2026", f: "documentos/ekos/primero/LECTURA_CRÍTICA_TERCERA_SEMANA_EKOS.pdf", g: "5/10" },
+            { t: "LECTURA CRÍTICA LÍMITES SEXTA SEMANA EKOS", d: "16/09/2026", f: "documentos/ekos/primero/SEMANA_2.pdf", g: "8/10" },
+            { t: "LECTURA CRÍTICA SEPTIMA SEMANA EKOS", d: "17/09/2026", f: "documentos/ekos/primero/SÉPTIMA_SEMANA.pdf", g: "9.5/10" }
           ] 
         }, 
         p2: { "Tareas": [] } 
@@ -123,7 +119,6 @@ document.addEventListener("DOMContentLoaded", () => {
     
     consultas: { titulo: "Consultas", subtitulo: "Comp y mano", bg: "fondo/7.jpg", items: { p1: { "Consultas": [] }, p2: { "Consultas": [] } } },
     
-    // SECCIÓN LECTURAS CRÍTICAS
     lecturas: { 
       titulo: "Lecturas", 
       subtitulo: "Análisis", 
