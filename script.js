@@ -81,6 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
       } 
     },
     
+    // SECCIÓN EKOS CORREGIDA
     ekos: { 
       titulo: "EKOS", 
       subtitulo: "Plataforma", 
@@ -94,8 +95,8 @@ document.addEventListener("DOMContentLoaded", () => {
             { t: "LECTURA CRÍTICA CUARTA SEMANA BINOMIO DE NEWTON EKOS", d: "02/09/2026", f: "documentos/ekos/primero/CÁLCULO_DEL_DOMINIO_Y_RANGO_DE_UNA_FUNCIÓN.pdf", g: "9/10" },
             { t: "LECTURA CRÍTICA QUINTA SEMANA EKOS", d: "09/09/2026", f: "documentos/ekos/primero/EKOS.pdf", g: "5/10" },
             { t: "LECTURA CRÍTICA LÍMITES SEXTA SEMANA EKOS", d: "16/09/2026", f: "documentos/ekos/primero/FUNCIONES_EN_ECONOMÍA.pdf", g: "8/10" },
-          ] 
             { t: "LECTURA CRÍTICA SEPTIMA SEMANA EKOS", d: "17/09/2026", f: "documentos/ekos/primero/SÉPTIMA_SEMANA.pdf", g: "9.5/10" }
+          ] 
         }, 
         p2: { "Tareas": [] } 
       } 
