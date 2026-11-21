@@ -125,7 +125,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { t: "04 - 2.3 Teoremas de límites algebraicos", d: "21/11/2026", f: "documentos/consultas/primero/unidad2/04 - 2.3 Teoremas de límites algebraicos.pdf", g: "..." },
             { t: "05 - Aplicaciones de los Límites", d: "22/11/2026", f: "documentos/consultas/primero/unidad2/05 - Aplicaciones de los Límites.pdf", g: "..." },
             { t: "06 - 2.4 Estudio de las indeterminaciones", d: "23/11/2026", f: "documentos/consultas/primero/unidad2/06 - 2.4 Estudio de las indeterminaciones.pdf", g: "..." },
-            { t: "07 - 2.5 Indeterminaciones 0 sobre 0 (factoreo, racionalización...)", d: "24/11/2026", f: "documentos/consultas/primero/unidad2/07 - 2.5 Indeterminaciones 0 sobre 0 (factoreo, racionalización...).pdf", g: "..." },
+            { t: "07 - 2.5 Indeterminaciones 0 sobre 0 (factoreo, racionalización y cambio de variable)", d: "24/11/2026", f: "documentos/consultas/primero/unidad2/07 - 2.5 Indeterminaciones 0 sobre 0 (factoreo, racionalización...).pdf", g: "..." },
             { t: "08 - 2.6 Indeterminaciones infinito sobre infinito", d: "25/11/2026", f: "documentos/consultas/primero/unidad2/08 - 2.6 Indeterminaciones infinito sobre infinito.pdf", g: "..." }
           ],
           "Unidad 3 - Derivadas": [],
