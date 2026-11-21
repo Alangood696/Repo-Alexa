@@ -1,25 +1,14 @@
 document.addEventListener("DOMContentLoaded", () => {
   const svgDoc = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>`;
 
-  // ============================================================
-  // BASE DE DATOS ESTÁTICA
-  // ============================================================
   const dbDefault = {
     materia: { 
       titulo: "Materia", 
       subtitulo: "Apuntes e información", 
       bg: "fondo/2.jpg", 
       items: { 
-        p1: { 
-          "Apuntes": [
-            { t: "MATERIA PRIMER PARCIAL", d: "22/11/2026", f: "documentos/materia/primero/MATERIA PRIMER PARCIAL.pdf", g: "..." }
-          ] 
-        }, 
-        p2: { 
-          "Apuntes": [
-            { t: "MATERIA SEGUNDO PARCIAL", d: "22/11/2026", f: "documentos/materia/segundo/MATERIA SEGUNDO PARCIAL.pdf", g: "..." }
-          ] 
-        } 
+        p1: { "Apuntes": [ { t: "MATERIA PRIMER PARCIAL", d: "22/11/2026", f: "documentos/materia/primero/MATERIA PRIMER PARCIAL.pdf", g: "..." } ] }, 
+        p2: { "Apuntes": [ { t: "MATERIA SEGUNDO PARCIAL", d: "22/11/2026", f: "documentos/materia/segundo/MATERIA SEGUNDO PARCIAL.pdf", g: "..." } ] } 
       } 
     },
     
@@ -49,11 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { t: "EVALUACIÓN PRIMER PARCIAL", d: "22/09/2026", f: "documentos/evaluaciones/primero/ev-par/PRUEBA_MATEMATICAS_compressed.pdf", g: "6.25/10" }
           ]
         }, 
-        p2: { 
-          "Evaluaciones en Plataforma": [], 
-          "Evaluaciones Escritas": [],
-          "Evaluación Parcial": []
-        } 
+        p2: { "Evaluaciones en Plataforma": [], "Evaluaciones Escritas": [], "Evaluación Parcial": [] } 
       } 
     },
     
@@ -107,9 +92,9 @@ document.addEventListener("DOMContentLoaded", () => {
             { t: "LECTURA CRITICA SEGUNDA SEMANA FUNCIONES EKOS", d: "20/08/2026", f: "documentos/ekos/primero/SEMANA_2.pdf", g: "5/10" },
             { t: "LECTURA CRÍTICA TERCERA SEMANA EKOS", d: "26/08/2026", f: "documentos/ekos/primero/LECTURA_CRÍTICA_TERCERA_SEMANA_EKOS.pdf", g: "6/10" },
             { t: "LECTURA CRÍTICA CUARTA SEMANA BINOMIO DE NEWTON EKOS", d: "02/09/2026", f: "documentos/ekos/primero/CÁLCULO_DEL_DOMINIO_Y_RANGO_DE_UNA_FUNCIÓN.pdf", g: "9/10" },
-            { t: "LECTURA CRÍTICA QUINTA SEMANA EKOS", d: "09/09/2026", f: "documentos/ekos/primero/EKOS.pdf", g: "5/10" }
-            { t: "LECTURA CRÍTICA SEPTIMA SEMANA EKOS", d: "17/09/2026", f: "documentos/ekos/primero/FUNCIONES_EN_ECONOMÍA.pdf", g: "9.5/10" }
+            { t: "LECTURA CRÍTICA QUINTA SEMANA EKOS", d: "09/09/2026", f: "documentos/ekos/primero/EKOS.pdf", g: "5/10" },
             { t: "LECTURA CRÍTICA LÍMITES SEXTA SEMANA EKOS", d: "16/09/2026", f: "documentos/ekos/primero/EKOS_SEMANA_1.pdf", g: "8/10" },
+            { t: "LECTURA CRÍTICA SEPTIMA SEMANA EKOS", d: "17/09/2026", f: "documentos/ekos/primero/FUNCIONES_EN_ECONOMÍA.pdf", g: "9.5/10" }
           ] 
         }, 
         p2: { "Tareas": [] } 
