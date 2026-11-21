@@ -101,14 +101,14 @@ document.addEventListener("DOMContentLoaded", () => {
       } 
     },
     
-    // SECCIÓN CONSULTAS ACTUALIZADA CON TUS DOCUMENTOS
+    // SECCIÓN CONSULTAS ACTUALIZADA CON UNIDAD 1 Y UNIDAD 2
     consultas: { 
       titulo: "Consultas", 
       subtitulo: "Comp y mano", 
       bg: "fondo/7.jpg", 
       items: { 
         p1: { 
-          "Unidad 1": [
+          "Unidad 1 - Funciones": [
             { t: "01-Generalidades de las Funciones", d: "10/11/2026", f: "documentos/consultas/primero/unidad1/01 - Generalidades de las Funciones.pdf", g: "..." },
             { t: "02 - 1.1 Definiciones básicas de las funciones", d: "11/11/2026", f: "documentos/consultas/primero/unidad1/02 - 1.1 Definiciones básicas de las funciones.pdf", g: "..." },
             { t: "03 - 1.2 Clasificación de las funciones", d: "12/11/2026", f: "documentos/consultas/primero/unidad1/03 - 1.2 Clasificación de las funciones.pdf", g: "..." },
@@ -118,10 +118,20 @@ document.addEventListener("DOMContentLoaded", () => {
             { t: "07 - 1.5 Cálculo de las funciones (valor inicial, épsilon, gráfica, inflexión y cortes)", d: "16/11/2026", f: "documentos/consultas/primero/unidad1/07 - 1.5 Cálculo de las funciones (valor inicial, épsilon, gráfica, inflexión y cortes).pdf", g: "..." },
             { t: "08 - 1.6 Dominio y rango de una función gráficamente", d: "17/11/2026", f: "documentos/consultas/primero/unidad1/08 - 1.6 Dominio y rango de una función gráficamente.pdf", g: "..." }
           ],
-          "Unidad 2": [],
-          "Unidad 3": []
+          "Unidad 2 - Límites": [
+            { t: "01 - Generalidades de los Límites", d: "18/11/2026", f: "documentos/consultas/primero/unidad2/01 - Generalidades de los Límites.pdf", g: "..." },
+            { t: "02 - 2.1 Definiciones básicas sobre límites", d: "19/11/2026", f: "documentos/consultas/primero/unidad2/02 - 2.1 Definiciones básicas sobre límites.pdf", g: "..." },
+            { t: "03 - 2.2 Interpretación geométrica", d: "20/11/2026", f: "documentos/consultas/primero/unidad2/03 - 2.2 Interpretación geométrica.pdf", g: "..." },
+            { t: "04 - 2.3 Teoremas de límites algebraicos", d: "21/11/2026", f: "documentos/consultas/primero/unidad2/04 - 2.3 Teoremas de límites algebraicos.pdf", g: "..." },
+            { t: "05 - Aplicaciones de los Límites", d: "22/11/2026", f: "documentos/consultas/primero/unidad2/05 - Aplicaciones de los Límites.pdf", g: "..." },
+            { t: "06 - 2.4 Estudio de las indeterminaciones", d: "23/11/2026", f: "documentos/consultas/primero/unidad2/06 - 2.4 Estudio de las indeterminaciones.pdf", g: "..." },
+            { t: "07 - 2.5 Indeterminaciones 0 sobre 0 (factoreo, racionalización...)", d: "24/11/2026", f: "documentos/consultas/primero/unidad2/07 - 2.5 Indeterminaciones 0 sobre 0 (factoreo, racionalización...).pdf", g: "..." },
+            { t: "08 - 2.6 Indeterminaciones infinito sobre infinito", d: "25/11/2026", f: "documentos/consultas/primero/unidad2/08 - 2.6 Indeterminaciones infinito sobre infinito.pdf", g: "..." }
+          ],
+          "Unidad 3 - Derivadas": [],
+          "Unidad 4 - Integrales": []
         }, 
-        p2: { "Unidad 1": [], "Unidad 2": [], "Unidad 3": [] } 
+        p2: { "Unidad 1 - Funciones": [], "Unidad 2 - Límites": [], "Unidad 3 - Derivadas": [], "Unidad 4 - Integrales": [] } 
       } 
     },
     
