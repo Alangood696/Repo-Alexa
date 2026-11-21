@@ -73,6 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
       } 
     },
     
+    // SECCIÓN APES ACTUALIZADA CON TUS NUEVOS ARCHIVOS, FECHAS Y NOTAS
     apes: { 
       titulo: "APES", 
       subtitulo: "Aprendizaje autónomo", 
@@ -81,7 +82,9 @@ document.addEventListener("DOMContentLoaded", () => {
         p1: { 
           "Tareas": [
             { t: "ENSAYO DE LÍMITES Y DERIVADAS", d: "30/08/2026", f: "documentos/apes/primero/Ensayo_de_limites_y_derivadas.pdf", g: "9.5/10" },
-            { t: "FUNCIONES ALGEBRAICAS Y TRASCENDENTES", d: "27/09/2026", f: "documentos/apes/primero/FUNCIONES_ALGEBRAICAS_Y_TRASCENDENTES.pdf", g: "8/10" }
+            { t: "FUNCIONES ALGEBRAICAS Y TRASCENDENTES", d: "27/09/2026", f: "documentos/apes/primero/FUNCIONES_ALGEBRAICAS_Y_TRASCENDENTES.pdf", g: "8/10" },
+            { t: "APRENDIZAJE EXPERIMENTAL 2", d: "08/09/2026", f: "documentos/apes/primero/APRENDIZAJE EXPERIMENTAL 2.pdf", g: "9.5/10" },
+            { t: "APRENDIZAJE PRACTICO EXPERIMENTAL 3", d: "20/09/2026", f: "documentos/apes/primero/APRENDIZAJE PRACTICO EXPERIMENTAL 3.pdf", g: "8/10" }
           ] 
         }, 
         p2: { "Tareas": [] } 
