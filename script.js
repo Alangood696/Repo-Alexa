@@ -101,7 +101,6 @@ document.addEventListener("DOMContentLoaded", () => {
       } 
     },
     
-    // SECCIÓN CONSULTAS ACTUALIZADA CON UNIDAD 1 Y UNIDAD 2
     consultas: { 
       titulo: "Consultas", 
       subtitulo: "Comp y mano", 
@@ -128,7 +127,17 @@ document.addEventListener("DOMContentLoaded", () => {
             { t: "07 - 2.5 Indeterminaciones 0 sobre 0 (factoreo, racionalización y cambio de variable)", d: "24/11/2026", f: "documentos/consultas/primero/unidad2/07 - 2.5 Indeterminaciones 0 sobre 0 (factoreo, racionalización...).pdf", g: "..." },
             { t: "08 - 2.6 Indeterminaciones infinito sobre infinito", d: "25/11/2026", f: "documentos/consultas/primero/unidad2/08 - 2.6 Indeterminaciones infinito sobre infinito.pdf", g: "..." }
           ],
-          "Unidad 3 - Derivadas": [],
+          "Unidad 3 - Derivadas": [
+            { t: "01 - Generalidades de las Derivadas", d: "01/11/2026", f: "documentos/consultas/primero/unidad3/01 - Generalidades de las Derivadas.pdf", g: "..." },
+            { t: "02 - 3.1 Definiciones básicas de las derivadas", d: "03/11/2026", f: "documentos/consultas/primero/unidad3/02 - 3.1 Definiciones básicas de las derivadas.pdf", g: "..." },
+            { t: "03 - 3.2 Derivada por incrementos o definición", d: "05/11/2026", f: "documentos/consultas/primero/unidad3/03 - 3.2 Derivada por incrementos o definición.pdf", g: "..." },
+            { t: "04 - 3.3 Derivadas algebraicas mediante fórmulas", d: "07/11/2026", f: "documentos/consultas/primero/unidad3/04 - 3.3 Derivadas algebraicas mediante fórmulas.pdf", g: "..." },
+            { t: "05 - 3.4 Reglas de derivación (suma, multiplicación y división)", d: "09/11/2026", f: "documentos/consultas/primero/unidad3/05 - 3.4 Reglas de derivación (suma, multiplicación y división).pdf", g: "..." },
+            { t: "06 - Aplicación de las Derivadas", d: "13/11/2026", f: "documentos/consultas/primero/unidad3/06 - Aplicación de las Derivadas.pdf", g: "..." },
+            { t: "07 - 3.5 Derivadas implícitas", d: "15/11/2026", f: "documentos/consultas/primero/unidad3/07 - 3.5 Derivadas implícitas.pdf", g: "..." },
+            { t: "08 - 3.6 Reglas de L'Hôpital, aplicación a límites", d: "18/11/2026", f: "documentos/consultas/primero/unidad3/08 - 3.6 Reglas de L'Hôpital, aplicación a límites.pdf", g: "..." },
+            { t: "09 - 3.7 Máximos y mínimos", d: "21/11/2026", f: "documentos/consultas/primero/unidad3/09 - 3.7 Máximos y mínimos.pdf", g: "..." }
+          ],
           "Unidad 4 - Integrales": []
         }, 
         p2: { "Unidad 1 - Funciones": [], "Unidad 2 - Límites": [], "Unidad 3 - Derivadas": [], "Unidad 4 - Integrales": [] } 
