@@ -81,7 +81,6 @@ document.addEventListener("DOMContentLoaded", () => {
       } 
     },
     
-    // SECCIÓN EKOS CORREGIDA
     ekos: { 
       titulo: "EKOS", 
       subtitulo: "Plataforma", 
@@ -102,7 +101,29 @@ document.addEventListener("DOMContentLoaded", () => {
       } 
     },
     
-    consultas: { titulo: "Consultas", subtitulo: "Comp y mano", bg: "fondo/7.jpg", items: { p1: { "Consultas": [] }, p2: { "Consultas": [] } } },
+    // SECCIÓN CONSULTAS ACTUALIZADA CON TUS DOCUMENTOS
+    consultas: { 
+      titulo: "Consultas", 
+      subtitulo: "Comp y mano", 
+      bg: "fondo/7.jpg", 
+      items: { 
+        p1: { 
+          "Unidad 1": [
+            { t: "01-Generalidades de las Funciones", d: "10/11/2026", f: "documentos/consultas/primero/unidad1/01 - Generalidades de las Funciones.pdf", g: "..." },
+            { t: "02 - 1.1 Definiciones básicas de las funciones", d: "11/11/2026", f: "documentos/consultas/primero/unidad1/02 - 1.1 Definiciones básicas de las funciones.pdf", g: "..." },
+            { t: "03 - 1.2 Clasificación de las funciones", d: "12/11/2026", f: "documentos/consultas/primero/unidad1/03 - 1.2 Clasificación de las funciones.pdf", g: "..." },
+            { t: "04 - 1.3 Función compuesta", d: "13/11/2026", f: "documentos/consultas/primero/unidad1/04 - 1.3 Función compuesta.pdf", g: "..." },
+            { t: "05 - 1.4 Dominio y recorrido de la función algebraica", d: "14/11/2026", f: "documentos/consultas/primero/unidad1/05 - 1.4 Dominio y recorrido de la función algebraica.pdf", g: "..." },
+            { t: "06 - Aplicaciones de las Funciones", d: "15/11/2026", f: "documentos/consultas/primero/unidad1/06 - Aplicaciones de las Funciones.pdf", g: "..." },
+            { t: "07 - 1.5 Cálculo de las funciones (valor inicial, épsilon, gráfica, inflexión y cortes)", d: "16/11/2026", f: "documentos/consultas/primero/unidad1/07 - 1.5 Cálculo de las funciones (valor inicial, épsilon, gráfica, inflexión y cortes).pdf", g: "..." },
+            { t: "08 - 1.6 Dominio y rango de una función gráficamente", d: "17/11/2026", f: "documentos/consultas/primero/unidad1/08 - 1.6 Dominio y rango de una función gráficamente.pdf", g: "..." }
+          ],
+          "Unidad 2": [],
+          "Unidad 3": []
+        }, 
+        p2: { "Unidad 1": [], "Unidad 2": [], "Unidad 3": [] } 
+      } 
+    },
     
     lecturas: { 
       titulo: "Lecturas", 
