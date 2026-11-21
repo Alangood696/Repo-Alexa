@@ -40,8 +40,8 @@ document.addEventListener("DOMContentLoaded", () => {
         }, 
         p2: { 
           "Evaluaciones en Plataforma": [
-            { t: "EVALUACIÓN GOLDBACH", d: "15/10/2026", f: "documentos/evaluaciones/segundo/ev-vir/EVALUACIÓN GOLDBACH.pdf", g: "..." },
-            { t: "EVALUACIÓN NÚMERO ÁUREO", d: "20/10/2026", f: "documentos/evaluaciones/segundo/ev-vir/EVALUACIÓN NÚMERO ÁUREO.pdf", g: "..." }
+            { t: "EVALUACIÓN GOLDBACH", d: "15/10/2026", f: "documentos/evaluaciones/segundo/ev-vir/EVALUACIÓN GOLDBACH.pdf", g: "10/10" },
+            { t: "EVALUACIÓN NÚMERO ÁUREO", d: "20/10/2026", f: "documentos/evaluaciones/segundo/ev-vir/EVALUACIÓN NÚMERP ÁUREO.pdf", g: "..." }
           ], 
           "Evaluaciones Escritas": [], 
           "Evaluación Parcial": [] 
