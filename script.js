@@ -108,10 +108,10 @@ document.addEventListener("DOMContentLoaded", () => {
       items: { 
         p1: { 
           "Tareas": [
-            { t: "CÁLCULO DEL DOMINIO Y RANGO DE UNA FUNCIÓN", d: "18/08/2026", f: "documentos/ekos/primero/CÁLCULO_DEL_DOMINIO_Y_RANGO_DE_UNA_FUNCIÓN.pdf", g: "4.3/10" },
-            { t: "EKOS", d: "20/08/2026", f: "documentos/ekos/primero/EKOS.pdf", g: "5/10" },
-            { t: "EKOS SEMANA 1", d: "26/08/2026", f: "documentos/ekos/primero/EKOS_SEMANA_1.pdf", g: "6/10" },
-            { t: "FUNCIONES EN ECONOMÍA", d: "02/09/2026", f: "documentos/ekos/primero/FUNCIONES_EN_ECONOMÍA.pdf", g: "9/10" },
+            { t: "LECTURA CRÍTICA PRIMERA SEMANA EKOS", d: "18/08/2026", f: "documentos/ekos/primero/LECTURA_CRÍTICA_PRIMERA_SEMANA_EKOS.pdf", g: "4.3/10" },
+            { t: "LECTURA CRITICA SEGUNDA SEMANA FUNCIONES EKOS", d: "20/08/2026", f: "documentos/ekos/primero/LECTURA_CRITICA_SEGUNDA_SEMANA_FUNCIONES_EKOS.pdf", g: "5/10" },
+            { t: "LECTURA CRÍTICA TERCERA SEMANA EKOS", d: "26/08/2026", f: "documentos/ekos/primero/LECTURA_CRÍTICA_TERCERA_SEMANA_EKOS.pdf", g: "6/10" },
+            { t: "LECTURA CRÍTICA CUARTA SEMANA BINOMIO DE NEWTON EKOS", d: "02/09/2026", f: "documentos/ekos/primero/LECTURA_CRÍTICA_CUARTA_SEMANA_BINOMIO_DE_NEWTON_EKOS.pdf", g: "9/10" },
             { t: "LECTURA CRÍTICA TERCERA SEMANA EKOS", d: "09/09/2026", f: "documentos/ekos/primero/LECTURA_CRÍTICA_TERCERA_SEMANA_EKOS.pdf", g: "5/10" },
             { t: "SEMANA 2", d: "16/09/2026", f: "documentos/ekos/primero/SEMANA_2.pdf", g: "8/10" },
             { t: "SÉPTIMA SEMANA", d: "17/09/2026", f: "documentos/ekos/primero/SÉPTIMA_SEMANA.pdf", g: "9.5/10" }
