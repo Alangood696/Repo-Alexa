@@ -40,10 +40,17 @@ document.addEventListener("DOMContentLoaded", () => {
         }, 
         p2: { 
           "Evaluaciones en Plataforma": [
-            { t: "EVALUACIÓN GOLDBACH", d: "15/10/2026", f: "documentos/evaluaciones/segundo/ev-vir/EVALUACIÓN GOLDBACH.pdf", g: "10/10" },
-            { t: "EVALUACIÓN NÚMERO ÁUREO", d: "20/10/2026", f: "documentos/evaluaciones/segundo/ev-vir/EVALUACIÓN NÚMERP ÁUREO.pdf", g: "..." }
+            { t: "EVALUACIÓN NÚMERO ÁUREO", d: "...", f: "documentos/evaluaciones/segundo/ev-vir/EVALUACIÓN NÚMERO ÁUREO.pdf", g: "5.00/10" },
+            { t: "EVALUACIÓN GOLDBACH", d: "...", f: "documentos/evaluaciones/segundo/ev-vir/EVALUACIÓN GOLDBACH.pdf", g: "10.00/10" },
+            { t: "EVALUACIÓN LIMITES", d: "28/10/2026", f: "documentos/evaluaciones/segundo/ev-vir/EVALUACION LÌMITES.pdf", g: "..." }
           ], 
-          "Evaluaciones Escritas": [], 
+          "Evaluaciones Escritas": [
+            { t: "PRUEBA LÍMITE 1", d: "05/10/2026", f: "documentos/evaluaciones/segundo/ev-es/PRUEBA LÍMITE 1.pdf", g: "1/10" },
+            { t: "EVALUACIÓN LÍMITES INFINITOS 2", d: "05/10/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACION LIMITES INFINITOS 2.pdf", g: "10/10" },
+            { t: "EVALUACIÓN LÍMITES INFINITOS 3", d: "06/10/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACION LIMITES INFINITOS 3.pdf", g: "10/10" },
+            { t: "EVALUACIÓN LÍMITES 0 SOBRE 0 1", d: "12/10/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACION LIMITES 0 SOBRE 0 1.pdf", g: "10/10" },
+            { t: "EVALUACION FACTOREO", d: "13/10/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACION FACTOREO.pdf", g: "1/10" }
+          ], 
           "Evaluación Parcial": [] 
         } 
       } 
@@ -90,7 +97,11 @@ document.addEventListener("DOMContentLoaded", () => {
           "Tareas": [
             { t: "APRENDIZAJE PRACTICO EXPERIMENTAL 5", d: "19/10/2026", f: "documentos/apes/segundo/APRENDIZAJE PRACTICO EXPERIMENTAL 5.pdf", g: "..." },
             { t: "APRENDIZAJE PRACTICO EXPERIMENTAL 6", d: "27/10/2026", f: "documentos/apes/segundo/APRENDIZAJE PRACTICO EXPERIMENTAL6.pdf", g: "..." },
-            { t: "APRENDIZAJE PRACTICO EXPERIMENTAL 7", d: "13/11/2026", f: "documentos/apes/segundo/APRENDIZAJE PRACTICO EXPERIMENTAL 7.pdf", g: "..." }
+            { t: "APRENDIZAJE PRACTICO EXPERIMENTAL 7", d: "13/11/2026", f: "documentos/apes/segundo/APRENDIZAJE PRACTICO EXPERIMENTAL 7.pdf", g: "..." },
+            { t: "APRENDIZAJE PRACTICO EXPERIMENTAL 8", d: "...", f: "documentos/apes/segundo/APRENDIZAJE PRACTICO EXPERIMENTAL 8.pdf", g: "..." },
+            { t: "ISHIKAWA", d: "...", f: "documentos/apes/segundo/ISHIKAWA.pdf", g: "..." },
+            { t: "LECTURA CRÍTICA DE MATEMÁTICAS NOVENA SEMANA LA CONJETURA DE GOLDBACH", d: "...", f: "documentos/apes/segundo/LECTURA_CRÍTICA_NOVENA_SEMANA_GOLDBACH.pdf", g: "10.00/10" },
+            { t: "LECTURA CRÍTICA DE MATEMÁTICAS DÉCIMA PRIMERA SEMANA NÚMERO ÁUREO", d: "...", f: "documentos/apes/segundo/LECTURA_CRÍTICA_DÉCIMA_PRIMERA_SEMANA_NÚMERO_ÁUREO.pdf", g: "..." }
           ] 
         } 
       } 
@@ -112,7 +123,18 @@ document.addEventListener("DOMContentLoaded", () => {
             { t: "LECTURA CRÍTICA SEPTIMA SEMANA EKOS", d: "17/09/2026", f: "documentos/ekos/primero/SÉPTIMA_SEMANA.pdf", g: "9.5/10" }
           ] 
         }, 
-        p2: { "Tareas": [] } 
+        p2: { 
+          "Tareas": [
+            { t: "LECTURA CRÍTICA OCTAVA SEMANA LIMITES INFINITO SOBRE INFINITO", d: "...", f: "documentos/ekos/segundo/OCTAVA_SEMANA.pdf", g: "8.50/10" },
+            { t: "LECTURA CRÍTICA NOVENA SEMANA EKOS", d: "...", f: "documentos/ekos/segundo/NOVENA_SEMANA.pdf", g: "9.00/10" },
+            { t: "LECTURA CRÍTICA DÉCIMO SEGUNDA SEMANA DERIVADAS", d: "...", f: "documentos/ekos/segundo/DECIMO_SEGUNDA_SEMANA.pdf", g: "..." },
+            { t: "LECTURA CRÍTICA DÉCIMO TERCERA SEMANA EKOS", d: "...", f: "documentos/ekos/segundo/DECIMO_TERCERA_SEMANA.pdf", g: "..." },
+            { t: "LECTURA CRÍTICA DÉCIMO QUINTA SEMANA", d: "...", f: "documentos/ekos/segundo/DECIMO_QUINTA_SEMANA.pdf", g: "..." },
+            { t: "LECTURA CRÍTICA DÉCIMA SEMANA LÍMITES", d: "...", f: "documentos/ekos/segundo/DECIMA_SEMANA.pdf", g: "8.50/10" },
+            { t: "LECTURA CRÍTICA DÉCIMA PRIMERA SEMANA EKOS", d: "...", f: "documentos/ekos/segundo/DECIMA_PRIMERA_SEMANA.pdf", g: "..." },
+            { t: "LECTURA CRÍTICA DÉCIMO CUARTA SEMANA EMPRENDIMIENTO", d: "...", f: "documentos/ekos/segundo/DECIMO_CUARTA_SEMANA.pdf", g: "..." }
+          ] 
+        } 
       } 
     },
     
@@ -164,7 +186,12 @@ document.addEventListener("DOMContentLoaded", () => {
             { t: "08 - 4.6 Métodos de resolución", d: "18/11/2026", f: "documentos/consultas/primero/unidad4/08 - 4.6 Métodos de resolución.pdf", g: "..." }
           ]
         }, 
-        p2: { "Unidad 1 - Funciones": [], "Unidad 2 - Límites": [], "Unidad 3 - Derivadas": [], "Unidad 4 - Integrales": [] } 
+        p2: { 
+          "Unidad 1 - Funciones": [], 
+          "Unidad 2 - Límites": [], 
+          "Unidad 3 - Derivadas": [], 
+          "Unidad 4 - Integrales": [] 
+        } 
       } 
     },
     
