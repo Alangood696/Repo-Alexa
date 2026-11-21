@@ -38,7 +38,14 @@ document.addEventListener("DOMContentLoaded", () => {
             { t: "EVALUACIÓN PRIMER PARCIAL", d: "22/09/2026", f: "documentos/evaluaciones/primero/ev-par/PRUEBA_MATEMATICAS_compressed.pdf", g: "6.25/10" }
           ]
         }, 
-        p2: { "Evaluaciones en Plataforma": [], "Evaluaciones Escritas": [], "Evaluación Parcial": [] } 
+        p2: { 
+          "Evaluaciones en Plataforma": [
+            { t: "EVALUACIÓN GOLDBACH", d: "15/10/2026", f: "documentos/evaluaciones/segundo/ev-vir/EVALUACIÓN GOLDBACH.pdf", g: "..." },
+            { t: "EVALUACIÓN NÚMERO ÁUREO", d: "20/10/2026", f: "documentos/evaluaciones/segundo/ev-vir/EVALUACIÓN NÚMERO ÁUREO.pdf", g: "..." }
+          ], 
+          "Evaluaciones Escritas": [], 
+          "Evaluación Parcial": [] 
+        } 
       } 
     },
     
@@ -138,7 +145,16 @@ document.addEventListener("DOMContentLoaded", () => {
             { t: "08 - 3.6 Reglas de L'Hôpital, aplicación a límites", d: "18/11/2026", f: "documentos/consultas/primero/unidad3/08 - 3.6 Reglas de L'Hôpital, aplicación a límites.pdf", g: "..." },
             { t: "09 - 3.7 Máximos y mínimos", d: "21/11/2026", f: "documentos/consultas/primero/unidad3/09 - 3.7 Máximos y mínimos.pdf", g: "..." }
           ],
-          "Unidad 4 - Integrales": []
+          "Unidad 4 - Integrales": [
+            { t: "01 - Generalidades de las Integrales", d: "01/11/2026", f: "documentos/consultas/primero/unidad4/01 - Generalidades de las Integrales.pdf", g: "..." },
+            { t: "02 - 4.1 Definiciones básicas de las integrales", d: "03/11/2026", f: "documentos/consultas/primero/unidad4/02 - 4.1 Definiciones básicas de las integrales.pdf", g: "..." },
+            { t: "03 - 4.2 Integral definida", d: "05/11/2026", f: "documentos/consultas/primero/unidad4/03 - 4.2 Integral definida.pdf", g: "..." },
+            { t: "04 - 4.3 Propiedades de las integrales definidas", d: "07/11/2026", f: "documentos/consultas/primero/unidad4/04 - 4.3 Propiedades de las integrales definidas.pdf", g: "..." },
+            { t: "05 - 4.4 Integral indefinida", d: "09/11/2026", f: "documentos/consultas/primero/unidad4/05 - 4.4 Integral indefinida.pdf", g: "..." },
+            { t: "06 - 4.5 Propiedades de las integrales indefinidas", d: "13/11/2026", f: "documentos/consultas/primero/unidad4/06 - 4.5 Propiedades de las integrales indefinidas.pdf", g: "..." },
+            { t: "07 - Aplicación de las Integrales", d: "15/11/2026", f: "documentos/consultas/primero/unidad4/07 - Aplicación de las Integrales.pdf", g: "..." },
+            { t: "08 - 4.6 Métodos de resolución", d: "18/11/2026", f: "documentos/consultas/primero/unidad4/08 - 4.6 Métodos de resolución.pdf", g: "..." }
+          ]
         }, 
         p2: { "Unidad 1 - Funciones": [], "Unidad 2 - Límites": [], "Unidad 3 - Derivadas": [], "Unidad 4 - Integrales": [] } 
       } 
