@@ -238,7 +238,7 @@ document.addEventListener("DOMContentLoaded", () => {
     anexos: { titulo: "Anexos", subtitulo: "Material extra", bg: "fondo/9.jpg", items: { p1: { "Anexos": [
       { t: "ANEXOS PRIMER PARCIAL", d: "22/11/2026", f: "documentos/anexos/primero/ANEXOS PRIMER PARCIAL.pdf", g: "..." }
     ] }, p2: { "Anexos": [
-      { t: "LECTURA CRÍTICA NÚMERO AUREO", d: "06/11/2026", f: "documentos/lecturas/segundo/LECTURA CRÍTICA NÚMERO AUREO.pdf", g: "10/10" }
+      { t: "ANEXOS SEGUNDO PARCIAL", d: "22/11/2026", f: "documentos/anexos/segundo/ANEXOS SEGUNDO PARCIAL.pdf", g: "..." }
     ] } } },
     
     index: { 
