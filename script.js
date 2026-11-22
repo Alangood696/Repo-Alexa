@@ -184,7 +184,9 @@ document.addEventListener("DOMContentLoaded", () => {
             { t: "06 - 2.4 Estudio de las indeterminaciones", d: "23/11/2026", f: "documentos/consultas/primero/unidad2/06 - 2.4 Estudio de las indeterminaciones.pdf", g: "..." },
             { t: "07 - 2.5 Indeterminaciones 0 sobre 0 (factoreo, racionalización y cambio de variable)", d: "24/11/2026", f: "documentos/consultas/primero/unidad2/07 - 2.5 Indeterminaciones 0 sobre 0 (factoreo, racionalización...).pdf", g: "..." },
             { t: "08 - 2.6 Indeterminaciones infinito sobre infinito", d: "25/11/2026", f: "documentos/consultas/primero/unidad2/08 - 2.6 Indeterminaciones infinito sobre infinito.pdf", g: "..." }
-          ],
+          ]
+        }, 
+        p2: { 
           "Unidad 3 - Derivadas": [
             { t: "01 - Generalidades de las Derivadas", d: "01/11/2026", f: "documentos/consultas/primero/unidad3/01 - Generalidades de las Derivadas.pdf", g: "..." },
             { t: "02 - 3.1 Definiciones básicas de las derivadas", d: "03/11/2026", f: "documentos/consultas/primero/unidad3/02 - 3.1 Definiciones básicas de las derivadas.pdf", g: "..." },
@@ -206,12 +208,6 @@ document.addEventListener("DOMContentLoaded", () => {
             { t: "07 - Aplicación de las Integrales", d: "15/11/2026", f: "documentos/consultas/primero/unidad4/07 - Aplicación de las Integrales.pdf", g: "..." },
             { t: "08 - 4.6 Métodos de resolución", d: "18/11/2026", f: "documentos/consultas/primero/unidad4/08 - 4.6 Métodos de resolución.pdf", g: "..." }
           ]
-        }, 
-        p2: { 
-          "Unidad 1 - Funciones": [], 
-          "Unidad 2 - Límites": [], 
-          "Unidad 3 - Derivadas": [], 
-          "Unidad 4 - Integrales": [] 
         } 
       } 
     },
