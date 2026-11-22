@@ -149,10 +149,10 @@ document.addEventListener("DOMContentLoaded", () => {
             { t: "LECTURA CRÍTICA OCTAVA SEMANA LIMITES INFINITO SOBRE INFINITO", d: "30/09/2026", f: "documentos/ekos/segundo/LECTURA CRÍTICA OCTAVA SEMANA LIMITES INFINITO SOBRE INFINITO.pdf", g: "8.5/10" },
             { t: "LECTURA CRÍTICA NOVENA SEMANA EKOS", d: "07/10/2026", f: "documentos/ekos/segundo/LECTURA CRÍTICA NOVENA SEMANA EKOS.pdf", g: "9/10" },
             { t: "LECTURA CRÍTICA DÉCIMO SEGUNDA SEMANA DERIVADAS", d: "28/10/2026", f: "documentos/ekos/segundo/LECTURA CRÍTICA DÉCIMO SEGUNDA SEMANA DERIVADAS.pdf", g: "8/10" },
-            { t: "LECTURA CRÍTICA DÉCIMO TERCERA SEMANA EKOS", d: "...", f: "documentos/ekos/segundo/DECIMO_TERCERA_SEMANA.pdf", g: "..." },
+            { t: "LECTURA CRÍTICA DÉCIMO TERCERA SEMANA EKOS", d: "04/11/2026", f: "documentos/ekos/segundo/LECTURA CRITICA DÉCIMO TERCERA SEMANA EKOS.pdf", g: "8/10" },
             { t: "LECTURA CRÍTICA DÉCIMO QUINTA SEMANA", d: "...", f: "documentos/ekos/segundo/DECIMO_QUINTA_SEMANA.pdf", g: "..." },
             { t: "LECTURA CRÍTICA DÉCIMA SEMANA LÍMITES", d: "...", f: "documentos/ekos/segundo/LECTURA CRÍTICA DÉCIMA SEMANA LÍMITES.pdf", g: "8.5/10" },
-            { t: "LECTURA CRÍTICA DÉCIMA PRIMERA SEMANA EKOS", d: "20/10/2026", f: "documentos/ekos/segundo/LECTURA CRÍTICA DÉCIMA PRIMERA SEMANA EKOS.pdf", g: "9/10" },
+            { t: "LECTURA CRÍTICA DÉCIMA PRIMERA SEMANA EKOS", d: "14/10/2026", f: "documentos/ekos/segundo/LECTURA CRÍTICA DÉCIMA PRIMERA SEMANA EKOS.pdf", g: "8.5/10" },
             { t: "LECTURA CRÍTICA DÉCIMO CUARTA SEMANA EMPRENDIMIENTO", d: "...", f: "documentos/ekos/segundo/DECIMO_CUARTA_SEMANA.pdf", g: "..." }
           ] 
         } 
