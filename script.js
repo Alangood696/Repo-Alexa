@@ -87,8 +87,8 @@ document.addEventListener("DOMContentLoaded", () => {
       items: { 
         p1: { 
           "Tareas": [
-            { t: "APRENDIZAJE EXPERIMENTAL 1", d: "30/08/2026", f: "documentos/apes/primero/Ensayo_de_limites_y_derivadas.pdf", g: "9.5/10" },
-            { t: "APRENDIZAJE EXPERIMENTAL 4", d: "27/09/2026", f: "documentos/apes/primero/FUNCIONES_ALGEBRAICAS_Y_TRASCENDENTES.pdf", g: "8/10" },
+            { t: "APRENDIZAJE EXPERIMENTAL 1", d: "30/08/2026", f: "documentos/apes/primero/FUNCIONES_ALGEBRAICAS_Y_TRASCENDENTES.pdf", g: "9.5/10" },
+            { t: "APRENDIZAJE EXPERIMENTAL 4", d: "27/09/2026", f: "documentos/apes/primero/Ensayo_de_limites_y_derivadas.pdf", g: "8/10" },
             { t: "APRENDIZAJE EXPERIMENTAL 2", d: "08/09/2026", f: "documentos/apes/primero/APRENDIZAJE EXPERIMENTAL 2.pdf", g: "9.5/10" },
             { t: "APRENDIZAJE EXPERIMENTAL 3", d: "20/09/2026", f: "documentos/apes/primero/APRENDIZAJE PRACTICO EXPERIMENTAL 3.pdf", g: "8/10" }
           ] 
