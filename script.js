@@ -217,13 +217,13 @@ document.addEventListener("DOMContentLoaded", () => {
       bg: "fondo/1.jpg", 
       items: {}, 
       perfil: {
-        nombre: "[Nombre del Estudiante]", 
+        nombre: "Alexandra Toaquiza Caiza Patricia", 
         rol: "Contabilidad y Auditoría", 
         universidad: "Universidad Técnica de Ambato", 
         facultad: "Contabilidad y Auditoría", 
-        curso: "Primer Semestre - Paralelo 'A'", 
-        docente: "Lic. Claudio Hidalgo", 
-        foto: "" 
+        curso: "Segundo Semestre - Paralelo 'A'", 
+        docente: "Ing. Claudio Hidalgo", 
+        foto: "fondo/perfil" 
       } 
     }
   };
