@@ -146,7 +146,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }, 
         p2: { 
           "Tareas": [
-            { t: "LECTURA CRÍTICA OCTAVA SEMANA LIMITES INFINITO SOBRE INFINITO", d: "...", f: "documentos/ekos/segundo/OCTAVA_SEMANA.pdf", g: "8.5/10" },
+            { t: "LECTURA CRÍTICA OCTAVA SEMANA LIMITES INFINITO SOBRE INFINITO", d: "...", f: "documentos/ekos/segundo/LECTURA CRÍTICA OCTAVA SEMANA LIMITES INFINITO SOBRE INFINITO.pdf", g: "8.5/10" },
             { t: "LECTURA CRÍTICA NOVENA SEMANA EKOS", d: "...", f: "documentos/ekos/segundo/NOVENA_SEMANA.pdf", g: "9/10" },
             { t: "LECTURA CRÍTICA DÉCIMO SEGUNDA SEMANA DERIVADAS", d: "...", f: "documentos/ekos/segundo/DECIMO_SEGUNDA_SEMANA.pdf", g: "..." },
             { t: "LECTURA CRÍTICA DÉCIMO TERCERA SEMANA EKOS", d: "...", f: "documentos/ekos/segundo/DECIMO_TERCERA_SEMANA.pdf", g: "..." },
