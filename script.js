@@ -119,9 +119,9 @@ document.addEventListener("DOMContentLoaded", () => {
           "Tareas": [
             { t: "APRENDIZAJE PRACTICO EXPERIMENTAL 5", d: "19/10/2026", f: "documentos/apes/segundo/APRENDIZAJE PRÀCTICO EXPERIMENTAL 5.pdf", g: "..." },
             { t: "APRENDIZAJE PRACTICO EXPERIMENTAL 6", d: "27/10/2026", f: "documentos/apes/segundo/APRENDISAJE PRÀCTICO EXPERIMENTAL 6.pdf", g: "..." },
-            { t: "APRENDIZAJE PRACTICO EXPERIMENTAL 7", d: "13/11/2026", f: "documentos/apes/segundo/APRENDISAJE PRÀCTICO EXPERIMENTAL 7.pdf", g: "..." },
+            { t: "APRENDIZAJE PRACTICO EXPERIMENTAL 7", d: "13/11/2026", f: "documentos/apes/segundo/APRENDIZAJE PRÀCTICO EXPERIMENTAL 7.pdf", g: "..." },
             { t: "APRENDIZAJE PRACTICO EXPERIMENTAL 8", d: "...", f: "documentos/apes/segundo/APRENDIZAJE PRACTICO EXPERIMENTAL 8.pdf", g: "..." },
-            { t: "ISHIKAWA", d: "...", f: "documentos/apes/segundo/MÉTODOS DE ISHIKAWA_compressed.pdf", g: "10/10" },
+            { t: "ISHIKAWA", d: "...", f: "documentos/apes/segundo/MÉTODOS DE ISHIKAWA.pdf", g: "10/10" },
             
           ] 
         } 
