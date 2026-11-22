@@ -50,7 +50,8 @@ document.addEventListener("DOMContentLoaded", () => {
             { t: "EVALUACIÓN LÍMITES INFINITOS 3", d: "06/10/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACION LIMITES INFINITOS 3.pdf", g: "10/10" },
             { t: "EVALUACIÓN LÍMITES 0 SOBRE 0 1", d: "12/10/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACION LIMITES 0 SOBRE 0 1.pdf", g: "10/10" },
             { t: "EVALUACION FACTOREO", d: "13/10/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACION FACTOREO.pdf", g: "1/10" },
-            { t: "EVALUACIÓN LÍMITES CERO SOBRE CERO DOS", d: "19/10/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACIÓN LÍMITES CERO SOBRE CERO DOS.pdf", g: "10/10" }
+            { t: "EVALUACIÓN LÍMITES CERO SOBRE CERO DOS", d: "19/10/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACIÓN LÍMITES CERO SOBRE CERO DOS.pdf", g: "10/10" },
+              { t: "EVALUACIÓN LÍMITES CERO SOBRE CERO TRES", d: "20/10/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACIÓN LÍMITES CERO SOBRE CERO TRES.pdf", g: "10/10" }
             
           ], 
           "Evaluación Parcial": [] 
