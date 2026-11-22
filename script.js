@@ -151,7 +151,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { t: "LECTURA CRÍTICA DÉCIMO SEGUNDA SEMANA DERIVADAS", d: "28/10/2026", f: "documentos/ekos/segundo/LECTURA CRÍTICA DÉCIMO SEGUNDA SEMANA DERIVADAS.pdf", g: "8/10" },
             { t: "LECTURA CRÍTICA DÉCIMO TERCERA SEMANA EKOS", d: "04/11/2026", f: "documentos/ekos/segundo/LECTURA CRITICA DÉCIMO TERCERA SEMANA EKOS.pdf", g: "8/10" },
             { t: "LECTURA CRÍTICA DÉCIMO QUINTA SEMANA", d: "...", f: "documentos/ekos/segundo/DECIMO_QUINTA_SEMANA.pdf", g: "..." },
-            { t: "LECTURA CRÍTICA DÉCIMA SEMANA LÍMITES", d: "...", f: "documentos/ekos/segundo/LECTURA CRÍTICA DÉCIMA SEMANA LÍMITES.pdf", g: "8.5/10" },
+            { t: "LECTURA CRÍTICA DÉCIMA SEMANA LÍMITES", d: "14/10/2026", f: "documentos/ekos/segundo/LECTURA CRÍTICA DÉCIMA SEMANA LÍMITES.pdf", g: "8.5/10" },
             { t: "LECTURA CRÍTICA DÉCIMA PRIMERA SEMANA EKOS", d: "14/10/2026", f: "documentos/ekos/segundo/LECTURA CRÍTICA DÉCIMA PRIMERA SEMANA EKOS.pdf", g: "8.5/10" },
             { t: "LECTURA CRÍTICA DÉCIMO CUARTA SEMANA EMPRENDIMIENTO", d: "...", f: "documentos/ekos/segundo/DECIMO_CUARTA_SEMANA.pdf", g: "..." }
           ] 
