@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
           ]
         }, 
         p2: { "Tareas": [
-          { t: "TAREA NOVENA SEMANA", d: "15/09/2026", f: "documentos/deberes/segundo/TAREA NOVENA SEMANA.pdf", g: "7/10"},
+          { t: "TAREA NOVENA SEMANA", d: "02/10/2026", f: "documentos/deberes/segundo/TAREA NOVENA SEMANA.pdf", g: "7/10"},
           { t: "TAREAS DÉCIMA SEMANA", d: "12/10/2026", f: "documentos/deberes/segundo/TAREAS DÉCIMA SEMANA.pdf", g: "7/10" }
         ]
         } 
