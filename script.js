@@ -223,7 +223,7 @@ document.addEventListener("DOMContentLoaded", () => {
         facultad: "Contabilidad y Auditoría", 
         curso: "Segundo Semestre - Paralelo 'A'", 
         docente: "Ing. Claudio Hidalgo", 
-        foto: "fondo/perfil" 
+        foto: "fondo/perfil.jpeg" 
       } 
     }
   };
