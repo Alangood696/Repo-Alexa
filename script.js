@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "Evaluaciones en Plataforma": [
             { t: "EVALUACIÓN NÚMERO ÁUREO", d: "04/11/2026", f: "documentos/evaluaciones/segundo/ev-vir/EVALUACIÓN NÚMERP ÁUREO.pdf", g: "5/10" },
             { t: "EVALUACIÓN GOLDBACH", d: "18/10/2026", f: "documentos/evaluaciones/segundo/ev-vir/EVALUACIÓN GOLDBACH.pdf", g: "10/10" },
-            { t: "EVALUACIÓN LIMITES", d: "28/10/2026", f: "documentos/evaluaciones/segundo/ev-vir/EVALUACION LÌMITES.pdf", g: "..." }
+            { t: "EVALUACIÓN LIMITES", d: "28/10/2026", f: "documentos/evaluaciones/segundo/ev-vir/EVALUACIÓN LIMITES.pdf", g: "..." }
           ], 
           "Evaluaciones Escritas": [
             { t: "PRUEBA LÍMITE 1", d: "05/10/2026", f: "documentos/evaluaciones/segundo/ev-es/PRUEBA LÍMITE 1.pdf", g: "1/10" },
