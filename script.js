@@ -227,7 +227,10 @@ document.addEventListener("DOMContentLoaded", () => {
             { t: "PROBLEMA DE SIERPINSKI", d: "16/09/2026", f: "documentos/lecturas/primero/PROBLEMA_DE_SIERPINSKI.pdf", g: "10/10" }
           ] 
         }, 
-        p2: { "Lecturas": [] } 
+        p2: { "Lecturas": [
+          { t: "CONJETURA DE GOLDBACH", d: "14/10/2026", f: "documentos/lecturas/segundo/CONJETURA DE GOLDBACH.pdf", g: "10/10" }
+        ] 
+        } 
       } 
     },
     
