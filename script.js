@@ -87,21 +87,20 @@ document.addEventListener("DOMContentLoaded", () => {
       items: { 
         p1: { 
           "Tareas": [
-            { t: "ENSAYO DE LÍMITES Y DERIVADAS", d: "30/08/2026", f: "documentos/apes/primero/Ensayo_de_limites_y_derivadas.pdf", g: "9.5/10" },
-            { t: "FUNCIONES ALGEBRAICAS Y TRASCENDENTES", d: "27/09/2026", f: "documentos/apes/primero/FUNCIONES_ALGEBRAICAS_Y_TRASCENDENTES.pdf", g: "8/10" },
+            { t: "APRENDIZAJE EXPERIMENTAL 1", d: "30/08/2026", f: "documentos/apes/primero/Ensayo_de_limites_y_derivadas.pdf", g: "9.5/10" },
+            { t: "APRENDIZAJE EXPERIMENTAL 4", d: "27/09/2026", f: "documentos/apes/primero/FUNCIONES_ALGEBRAICAS_Y_TRASCENDENTES.pdf", g: "8/10" },
             { t: "APRENDIZAJE EXPERIMENTAL 2", d: "08/09/2026", f: "documentos/apes/primero/APRENDIZAJE EXPERIMENTAL 2.pdf", g: "9.5/10" },
-            { t: "APRENDIZAJE PRACTICO EXPERIMENTAL 3", d: "20/09/2026", f: "documentos/apes/primero/APRENDIZAJE PRACTICO EXPERIMENTAL 3.pdf", g: "8/10" }
+            { t: "APRENDIZAJE EXPERIMENTAL 3", d: "20/09/2026", f: "documentos/apes/primero/APRENDIZAJE PRACTICO EXPERIMENTAL 3.pdf", g: "8/10" }
           ] 
         }, 
         p2: { 
           "Tareas": [
-            { t: "APRENDIZAJE PRACTICO EXPERIMENTAL 5", d: "19/10/2026", f: "documentos/apes/segundo/APRENDIZAJE PRACTICO EXPERIMENTAL 5.pdf", g: "..." },
+            { t: "APRENDIZAJE PRACTICO EXPERIMENTAL 5", d: "19/10/2026", f: "documentos/apes/segundo/APRENDISAJE PRACTICO EXPERIMENTAL 5.pdf", g: "..." },
             { t: "APRENDIZAJE PRACTICO EXPERIMENTAL 6", d: "27/10/2026", f: "documentos/apes/segundo/APRENDIZAJE PRACTICO EXPERIMENTAL6.pdf", g: "..." },
             { t: "APRENDIZAJE PRACTICO EXPERIMENTAL 7", d: "13/11/2026", f: "documentos/apes/segundo/APRENDIZAJE PRACTICO EXPERIMENTAL 7.pdf", g: "..." },
             { t: "APRENDIZAJE PRACTICO EXPERIMENTAL 8", d: "...", f: "documentos/apes/segundo/APRENDIZAJE PRACTICO EXPERIMENTAL 8.pdf", g: "..." },
-            { t: "ISHIKAWA", d: "...", f: "documentos/apes/segundo/ISHIKAWA.pdf", g: "..." },
-            { t: "LECTURA CRÍTICA DE MATEMÁTICAS NOVENA SEMANA LA CONJETURA DE GOLDBACH", d: "...", f: "documentos/apes/segundo/LECTURA_CRÍTICA_NOVENA_SEMANA_GOLDBACH.pdf", g: "10.00/10" },
-            { t: "LECTURA CRÍTICA DE MATEMÁTICAS DÉCIMA PRIMERA SEMANA NÚMERO ÁUREO", d: "...", f: "documentos/apes/segundo/LECTURA_CRÍTICA_DÉCIMA_PRIMERA_SEMANA_NÚMERO_ÁUREO.pdf", g: "..." }
+            { t: "ISHIKAWA", d: "...", f: "documentos/apes/segundo/MÉTODOS DE ISHIKAWA_compressed.pdf", g: "10/10" },
+            
           ] 
         } 
       } 
