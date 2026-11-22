@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { t: "EVALUACIÓN LÍMITES CERO SOBRE CERO CINCO", d: "27/10/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACIÓN LÍMITES CERO SOBRE CERO CINCO.pdf", g: "10/10" },
             { t: "EVALUACION INCREMENTOS", d: "27/10/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACION INCREMENTOS.pdf", g: "10/10" },
             { t: "EVALUACION DERIVADAS UNO", d: "28/10/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACION DERIVADAS UNO.pdf", g: "10/10" },
-            { t: "EVALUACION DERIVADAS DOS", d: "11/11/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACION DERIVADAS DOS.pdf", g: "10/10" },
+            { t: "EVALUACION DERIVADAS DOS", d: "11/11/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACIÓN DERIVADAS DOS.pdf", g: "10/10" },
             { t: "EVALUACIÓN LIMITES CERO SOBRE CERO SIES", d: "16/11/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACIÓN LIMITES CERO SOBRE CERO SIES.pdf", g: "10/10" },
              { t: "EVALUACION TALLER DERIVADAS", d: "27/10/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACION TALLER DERIVADAS.pdf", g: "0,5/10" }
             
@@ -87,7 +87,9 @@ document.addEventListener("DOMContentLoaded", () => {
             { t: "FORO DE PRESENTACIÓN", d: "21/08/2026", f: "documentos/deberes/primero/FORO.pdf", g: "9.5/10" }
           ]
         }, 
-        p2: { "Tareas": [], "Foro": [] } 
+        p2: { "Tareas": [
+          
+        ], "Foro": [] } 
       } 
     },
     
