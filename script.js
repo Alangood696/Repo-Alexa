@@ -396,7 +396,7 @@ document.addEventListener("DOMContentLoaded", () => {
           </div>
           <div class="about-card">
             <h3 class="card-title" style="font-size: 1.5rem; margin-bottom: 1.5rem;">Sobre el Portafolio</h3>
-            <p class="about-text">Este espacio digital ha sido creado con el propósito de recopilar y organizar todos los deberes, tareas, evaluaciones y actividades realizadas durante el semestre en la asignatura de Matemática I.</p>
+            <p class="about-text">Este espacio digital ha sido creado con el propósito de recopilar y organizar todos los deberes, tareas, evaluaciones y actividades realizadas durante el semestre en la asignatura de Matemática II.</p>
             <p class="about-text">A través de este portafolio se busca evidenciar el progreso académico, el desarrollo de habilidades analíticas y el esfuerzo constante aplicado en cada uno de los trabajos presentados.</p>
           </div>
         </div>
