@@ -58,11 +58,11 @@ document.addEventListener("DOMContentLoaded", () => {
             { t: "EVALUACION DERIVADAS UNO", d: "28/10/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACION DERIVADAS UNO.pdf", g: "10/10" },
             { t: "EVALUACION DERIVADAS DOS", d: "11/11/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACIÓN DERIVADAS DOS.pdf", g: "10/10" },
             { t: "EVALUACIÓN LIMITES CERO SOBRE CERO SIES", d: "16/11/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACIÓN LIMITES CERO SOBRE CERO SIES.pdf", g: "10/10" },
-             { t: "EVALUACION TALLER DERIVADAS", d: "27/10/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACION TALLER DERIVADAS.pdf", g: "0,5/10" }
-            
-            
+            { t: "EVALUACION TALLER DERIVADAS", d: "27/10/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACION TALLER DERIVADAS.pdf", g: "0,5/10" }
           ], 
-          "Evaluación Parcial": [] 
+          "Evaluación Parcial": [
+            { t: "EVALUACIÓN SEGUNDO PARCIAL", d: "22/11/2026", f: "documentos/evaluaciones/segundo/ev-par/1.pdf", g: "0,5/10" }
+          ] 
         } 
       } 
     },
@@ -146,12 +146,12 @@ document.addEventListener("DOMContentLoaded", () => {
         }, 
         p2: { 
           "Tareas": [
-            { t: "LECTURA CRÍTICA OCTAVA SEMANA LIMITES INFINITO SOBRE INFINITO", d: "...", f: "documentos/ekos/segundo/OCTAVA_SEMANA.pdf", g: "8.50/10" },
-            { t: "LECTURA CRÍTICA NOVENA SEMANA EKOS", d: "...", f: "documentos/ekos/segundo/NOVENA_SEMANA.pdf", g: "9.00/10" },
+            { t: "LECTURA CRÍTICA OCTAVA SEMANA LIMITES INFINITO SOBRE INFINITO", d: "...", f: "documentos/ekos/segundo/OCTAVA_SEMANA.pdf", g: "8.5/10" },
+            { t: "LECTURA CRÍTICA NOVENA SEMANA EKOS", d: "...", f: "documentos/ekos/segundo/NOVENA_SEMANA.pdf", g: "9/10" },
             { t: "LECTURA CRÍTICA DÉCIMO SEGUNDA SEMANA DERIVADAS", d: "...", f: "documentos/ekos/segundo/DECIMO_SEGUNDA_SEMANA.pdf", g: "..." },
             { t: "LECTURA CRÍTICA DÉCIMO TERCERA SEMANA EKOS", d: "...", f: "documentos/ekos/segundo/DECIMO_TERCERA_SEMANA.pdf", g: "..." },
             { t: "LECTURA CRÍTICA DÉCIMO QUINTA SEMANA", d: "...", f: "documentos/ekos/segundo/DECIMO_QUINTA_SEMANA.pdf", g: "..." },
-            { t: "LECTURA CRÍTICA DÉCIMA SEMANA LÍMITES", d: "...", f: "documentos/ekos/segundo/DECIMA_SEMANA.pdf", g: "8.50/10" },
+            { t: "LECTURA CRÍTICA DÉCIMA SEMANA LÍMITES", d: "...", f: "documentos/ekos/segundo/DECIMA_SEMANA.pdf", g: "8.5/10" },
             { t: "LECTURA CRÍTICA DÉCIMA PRIMERA SEMANA EKOS", d: "...", f: "documentos/ekos/segundo/DECIMA_PRIMERA_SEMANA.pdf", g: "..." },
             { t: "LECTURA CRÍTICA DÉCIMO CUARTA SEMANA EMPRENDIMIENTO", d: "...", f: "documentos/ekos/segundo/DECIMO_CUARTA_SEMANA.pdf", g: "..." }
           ] 
