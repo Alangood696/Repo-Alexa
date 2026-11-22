@@ -55,7 +55,8 @@ document.addEventListener("DOMContentLoaded", () => {
             { t: "EVALUACIÓN LÍMITES CERO SOBRE CERO CUATRO", d: "21/10/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACIÓN LÍMITES CERO SOBRE CERO CUATRO.pdf", g: "10/10" },
             { t: "EVALUACIÓN LÍMITES CERO SOBRE CERO CINCO", d: "27/10/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACIÓN LÍMITES CERO SOBRE CERO CINCO.pdf", g: "10/10" },
             { t: "EVALUACION INCREMENTOS", d: "27/10/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACION INCREMENTOS.pdf", g: "10/10" },
-            { t: "EVALUACION DERIVADAS UNO", d: "28/10/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACION DERIVADAS UNO.pdf", g: "10/10" }
+            { t: "EVALUACION DERIVADAS UNO", d: "28/10/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACION DERIVADAS UNO.pdf", g: "10/10" },
+             { t: "EVALUACION DERIVADAS DOS", d: "11/11/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACION DERIVADAS DOS.pdf", g: "10/10" }
             
             
           ], 
