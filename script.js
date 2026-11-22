@@ -228,7 +228,8 @@ document.addEventListener("DOMContentLoaded", () => {
           ] 
         }, 
         p2: { "Lecturas": [
-          { t: "CONJETURA DE GOLDBACH", d: "14/10/2026", f: "documentos/lecturas/segundo/CONJETURA DE GOLDBACH.pdf", g: "10/10" }
+          { t: "CONJETURA DE GOLDBACH", d: "14/10/2026", f: "documentos/lecturas/segundo/CONJETURA DE GOLDBACH.pdf", g: "10/10" },
+          { t: "LECTURA CRÍTICA NÚMERO AUREO", d: "06/11/2026", f: "documentos/lecturas/segundo/LECTURA CRÍTICA NÚMERO AUREO.pdf", g: "10/10" }
         ] 
         } 
       } 
