@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { t: "EVALUACION TALLER DERIVADAS", d: "27/10/2026", f: "documentos/evaluaciones/segundo/ev-es/EVALUACION TALLER DERIVADAS.pdf", g: "0,5/10" }
           ], 
           "Evaluación Parcial": [
-            { t: "EVALUACIÓN SEGUNDO PARCIAL", d: "22/11/2026", f: "documentos/evaluaciones/segundo/ev-par/1.pdf", g: "0,5/10" }
+            { t: "EVALUACIÓN SEGUNDO PARCIAL", d: "22/11/2026", f: "documentos/evaluaciones/segundo/ev-par/1.pdf", g: "..." }
           ] 
         } 
       } 
