@@ -93,7 +93,8 @@ document.addEventListener("DOMContentLoaded", () => {
           { t: "TAREAS DÉCIMA PRIMERA SEMANA", d: "16/10/2026", f: "documentos/deberes/segundo/TAREAS DÉCIMA PRIMERA SEMANA.pdf", g: "8/10" },
           { t: "TAREAS DÉCIMO SEGUNDA SEMANA", d: "23/10/2026", f: "documentos/deberes/segundo/TAREAS DÉCIMO SEGUNDA SEMANA.pdf", g: "9/10" },
           { t: "TAREAS DÉCIMO TERCERA SEMANA", d: "04/11/2026", f: "documentos/deberes/segundo/TAREAS DÉCIMO TERCERA SEMANA.pdf", g: "10/10" },
-          { t: "TAREAS DÉCIMO CUARTA SEMANA", d: "16/11/2026", f: "documentos/deberes/segundo/TAREAS DÉCIMO CUARTA SEMANA.pdf", g: "10/10" }
+          { t: "TAREAS DÉCIMO CUARTA SEMANA", d: "16/11/2026", f: "documentos/deberes/segundo/TAREAS DÉCIMO CUARTA SEMANA.pdf", g: "10/10" },
+          { t: "TAREAS DECIMO QUINTA SEMANA", d: "23/11/2026", f: "documentos/deberes/segundo/TAREAS DECIMO QUINTA SEMANA.pdf", g: "9/10" }
         ]
         } 
       } 
