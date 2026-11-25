@@ -248,6 +248,7 @@ document.addEventListener("DOMContentLoaded", () => {
         universidad: "Universidad Técnica de Ambato", 
         facultad: "Contabilidad y Auditoría", 
         curso: "Segundo Semestre - Paralelo 'A'", 
+        numero: "de lista 28",
         docente: "Ing. Claudio Hidalgo", 
         foto: "fondo/perfil.jpeg" 
       } 
